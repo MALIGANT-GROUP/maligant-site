@@ -336,7 +336,7 @@ window.MG_VIDEO_CONFIG = {
   "tr-car-reel": {
    "file": "tr-car-reel.mp4",
    "streamId": "9ab134a7410a1aca6f6043b31bc1a952",
-   "local": true
+   "local": false
   },
   "mg-livsandton-ff-dali": {
    "file": "mg-livsandton-ff-dali.mp4",
@@ -501,12 +501,12 @@ window.MG_VIDEO_CONFIG = {
   "tr-nandz-cook2": {
    "file": "tr-nandz-cook2.mp4",
    "streamId": "646ecc369e5999f6a36b74a41e4eeb8e",
-   "local": true
+   "local": false
   },
   "tr-jazziq": {
    "file": "tr-jazziq.mp4",
    "streamId": "5262cdbbea3bd035dba1f44650a0f62c",
-   "local": true
+   "local": false
   },
   "tr-nandz-l6": {
    "file": "tr-nandz-l6.mp4",
@@ -601,7 +601,7 @@ window.MG_VIDEO_CONFIG = {
   "set-6": {
    "file": "set-6.mp4",
    "streamId": "3eac7ce2fa9aac3233809c8207a9a4f4",
-   "local": true
+   "local": false
   },
   "snip-show-3": {
    "file": "snip-show-3.mp4",
@@ -656,17 +656,17 @@ window.MG_VIDEO_CONFIG = {
   "bg-macg": {
    "file": "bg-macg.mp4",
    "streamId": "71d5101792fef25f626705cdd7af0996",
-   "local": true
+   "local": false
   },
   "bg-tlc": {
    "file": "bg-tlc.mp4",
    "streamId": "68a71cf8c18c698af439ec56e88cf7f8",
-   "local": true
+   "local": false
   },
   "bg-legacy": {
    "file": "bg-legacy.mp4",
    "streamId": "63e8e7ef45bdc124216ea8a651cf0231",
-   "local": true
+   "local": false
   },
   "dj-money-talks": {
    "file": "dj-money-talks.mp4",
@@ -711,22 +711,22 @@ window.MG_VIDEO_CONFIG = {
   "bg-ratedr": {
    "file": "bg-ratedr.mp4",
    "streamId": "b5ae6af60edfadd26ea4b6e051454f51",
-   "local": true
+   "local": false
   },
   "bg-musa": {
    "file": "bg-musa.mp4",
    "streamId": "100a2aeb523cbeeb1f0f29576f138978",
-   "local": true
+   "local": false
   },
   "bg-opend": {
    "file": "bg-opend.mp4",
    "streamId": "09789464e0e4650f25dfd4813533381a",
-   "local": true
+   "local": false
   },
   "bg-celeb": {
    "file": "bg-celeb.mp4",
    "streamId": "1d4cf067ff2a1af491342729fb5cd495",
-   "local": true
+   "local": false
   },
   "tr-khanyisa-final": {
    "file": "tr-khanyisa-final.mp4",

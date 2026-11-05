@@ -937,7 +937,7 @@
    "file": "tr-car-reel.mp4",
    "poster": "bts/tr-car-reel.jpg",
    "preview": "bts/tr-car-reel-loop.mp4",
-   "local": true,
+   "local": false,
    "streamId": "9ab134a7410a1aca6f6043b31bc1a952"
   },
   "mg-livsandton-ff-dali": {
@@ -1396,7 +1396,7 @@
    "file": "tr-nandz-cook2.mp4",
    "poster": "bts/tr-nandz-cook2.jpg",
    "preview": "bts/tr-nandz-cook2-loop.mp4",
-   "local": true,
+   "local": false,
    "streamId": "646ecc369e5999f6a36b74a41e4eeb8e"
   },
   "tr-jazziq": {
@@ -1412,7 +1412,7 @@
    "file": "tr-jazziq.mp4",
    "poster": "bts/tr-jazziq.jpg",
    "preview": "bts/tr-jazziq-loop.mp4",
-   "local": true,
+   "local": false,
    "streamId": "5262cdbbea3bd035dba1f44650a0f62c"
   },
   "tr-nandz-l6": {
@@ -1677,7 +1677,7 @@
    "file": "set-6.mp4",
    "poster": "bts/set-6.jpg",
    "preview": "bts/set-6-loop.mp4",
-   "local": true,
+   "local": false,
    "streamId": "3eac7ce2fa9aac3233809c8207a9a4f4"
   },
   "snip-show-3": {
@@ -1831,7 +1831,7 @@
    "file": "bg-macg.mp4",
    "poster": "bts/bg-macg.jpg",
    "preview": null,
-   "local": true,
+   "local": false,
    "streamId": "71d5101792fef25f626705cdd7af0996"
   },
   "bg-tlc": {
@@ -1846,7 +1846,7 @@
    "file": "bg-tlc.mp4",
    "poster": "bts/bg-tlc.jpg",
    "preview": null,
-   "local": true,
+   "local": false,
    "streamId": "68a71cf8c18c698af439ec56e88cf7f8"
   },
   "bg-legacy": {
@@ -1861,7 +1861,7 @@
    "file": "bg-legacy.mp4",
    "poster": "bts/bg-legacy.jpg",
    "preview": null,
-   "local": true,
+   "local": false,
    "streamId": "63e8e7ef45bdc124216ea8a651cf0231"
   },
   "dj-money-talks": {
@@ -1985,7 +1985,7 @@
    "file": "bg-ratedr.mp4",
    "poster": "bts/bg-ratedr.jpg",
    "preview": null,
-   "local": true,
+   "local": false,
    "streamId": "b5ae6af60edfadd26ea4b6e051454f51"
   },
   "bg-musa": {
@@ -1999,7 +1999,7 @@
    "file": "bg-musa.mp4",
    "poster": "bts/bg-musa.jpg",
    "preview": null,
-   "local": true,
+   "local": false,
    "streamId": "100a2aeb523cbeeb1f0f29576f138978"
   },
   "bg-opend": {
@@ -2013,7 +2013,7 @@
    "file": "bg-opend.mp4",
    "poster": "bts/bg-opend.jpg",
    "preview": null,
-   "local": true,
+   "local": false,
    "streamId": "09789464e0e4650f25dfd4813533381a"
   },
   "bg-celeb": {
@@ -2027,7 +2027,7 @@
    "file": "bg-celeb.mp4",
    "poster": "bts/bg-celeb.jpg",
    "preview": null,
-   "local": true,
+   "local": false,
    "streamId": "1d4cf067ff2a1af491342729fb5cd495"
   },
   "tr-khanyisa-final": {
