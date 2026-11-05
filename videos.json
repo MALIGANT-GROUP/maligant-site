@@ -1,5 +1,5 @@
 {
- "customerCode": "",
+ "customerCode": "4v2c3qdzn0tk1dwm",
  "videos": {
   "bts-blulyt": {
    "project": "Blulyt",
@@ -13,7 +13,7 @@
    "poster": "bts/bts-blulyt.jpg",
    "preview": "bts/bts-blulyt-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "163c9413dc872c11effd0bacb0ed7bfb"
   },
   "bts-khanyisa-30": {
    "project": "The Legacy Collective",
@@ -27,7 +27,7 @@
    "poster": "bts/bts-khanyisa-30.jpg",
    "preview": "bts/bts-khanyisa-30-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "20e4513ebe662f18eaecc20967b02144"
   },
   "bts-khanyisa-reel": {
    "project": "The Legacy Collective",
@@ -41,7 +41,7 @@
    "poster": "bts/bts-khanyisa-reel.jpg",
    "preview": "bts/bts-khanyisa-reel-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "74f1c79c9859f2d4341eb1aae659e4c7"
   },
   "bts-love-clinic-couple": {
    "project": "The Love Clinic",
@@ -55,7 +55,7 @@
    "poster": "bts/bts-love-clinic-couple.jpg",
    "preview": "bts/bts-love-clinic-couple-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "d9e7b2773434cce3d9242b0c5982bf52"
   },
   "bts-love-clinic-lens": {
    "project": "The Love Clinic",
@@ -69,7 +69,7 @@
    "poster": "bts/bts-love-clinic-lens.jpg",
    "preview": "bts/bts-love-clinic-lens-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "7ba0f8aa46d6ff3be7004bbc11f91f58"
   },
   "bts-love-clinic-onset": {
    "project": "The Love Clinic",
@@ -83,7 +83,7 @@
    "poster": "bts/bts-love-clinic-onset.jpg",
    "preview": "bts/bts-love-clinic-onset-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "ecda45656846ea487ac9cf064fba7d6e"
   },
   "bts-love-clinic-setup": {
    "project": "The Love Clinic",
@@ -97,7 +97,7 @@
    "poster": "bts/bts-love-clinic-setup.jpg",
    "preview": "bts/bts-love-clinic-setup-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "2ed2ffe07ea552606a72a14830e58943"
   },
   "bts-s1": {
    "project": "Trashed",
@@ -111,7 +111,7 @@
    "poster": "bts/bts-s1.jpg",
    "preview": "bts/bts-s1-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "a628f0a3575b3271128559c52690a925"
   },
   "mg-booth-ballers": {
    "project": "Ballers & Bottles",
@@ -125,7 +125,7 @@
    "poster": "bts/mg-booth-ballers.jpg",
    "preview": "bts/mg-booth-ballers-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "176af4d8c71bc2a84a65e5c07ad1f7d8"
   },
   "mg-booth-boat": {
    "project": "Boat",
@@ -139,7 +139,7 @@
    "poster": "bts/mg-booth-boat.jpg",
    "preview": "bts/mg-booth-boat-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "4127ec476039863a8dfc03370d831110"
   },
   "mg-booth-christmas": {
    "project": "Christmas in the Booth",
@@ -153,7 +153,7 @@
    "poster": "bts/mg-booth-christmas.jpg",
    "preview": "bts/mg-booth-christmas-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "b5a296329f88f5c41146cd94da9aa630"
   },
   "mg-booth-eden": {
    "project": "Eden",
@@ -167,7 +167,7 @@
    "poster": "bts/mg-booth-eden.jpg",
    "preview": "bts/mg-booth-eden-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "b992e9464e8c5b54fd0cbd397b1a1522"
   },
   "mg-booth-piano-tuesday": {
    "project": "Piano Tuesday",
@@ -181,7 +181,7 @@
    "poster": "bts/mg-booth-piano-tuesday.jpg",
    "preview": "bts/mg-booth-piano-tuesday-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "be96cf9786aa808a372e4bc50e3afea8"
   },
   "mg-booth-surrender": {
    "project": "Surrender",
@@ -195,7 +195,7 @@
    "poster": "bts/mg-booth-surrender.jpg",
    "preview": "bts/mg-booth-surrender-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "2a9087b63064eafa963be5f9a6cbcdd7"
   },
   "mg-celavi-welele": {
    "project": "Welele",
@@ -209,7 +209,7 @@
    "poster": "bts/mg-celavi-welele.jpg",
    "preview": "bts/mg-celavi-welele-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "5a646ed60bb0917c8dd417cad83d133b"
   },
   "mg-livonbree-balimele": {
    "project": "Balimele",
@@ -223,7 +223,7 @@
    "poster": "bts/mg-livonbree-balimele.jpg",
    "preview": "bts/mg-livonbree-balimele-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "f3df827b0188b2471a5841ee0157b416"
   },
   "mg-livonbree-curated": {
    "project": "Curated Sundays",
@@ -237,7 +237,7 @@
    "poster": "bts/mg-livonbree-curated.jpg",
    "preview": "bts/mg-livonbree-curated-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "980616fc978c56d325bf571d9a66c383"
   },
   "mg-livsandton-halloween": {
    "project": "Trick or Treat",
@@ -251,7 +251,7 @@
    "poster": "bts/mg-livsandton-halloween.jpg",
    "preview": "bts/mg-livsandton-halloween-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "f4dabd29a49e805a887dd395d9888c0a"
   },
   "mg-livsandton-nye": {
    "project": "LIV in the Moment",
@@ -265,7 +265,7 @@
    "poster": "bts/mg-livsandton-nye.jpg",
    "preview": "bts/mg-livsandton-nye-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "5aec6fd2a2845f526d5f494585b9f9df"
   },
   "mg-mothers-day": {
    "project": "Happy Mother's Day",
@@ -279,7 +279,7 @@
    "poster": "bts/mg-mothers-day.jpg",
    "preview": "bts/mg-mothers-day-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "ea7f8fcc03ec4de367f82ec30ee26a3a"
   },
   "mg-room130-ballroom": {
    "project": "The Ballroom",
@@ -293,7 +293,7 @@
    "poster": "bts/mg-room130-ballroom.jpg",
    "preview": "bts/mg-room130-ballroom-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "996a6fbd4f41379cc3561e8b8c314e40"
   },
   "mg-room130-sessions": {
    "project": "Room Sessions",
@@ -307,7 +307,7 @@
    "poster": "bts/mg-room130-sessions.jpg",
    "preview": "bts/mg-room130-sessions-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "8e7319de0e5a721489541d2d94665663"
   },
   "mg-room130-sunday-skool": {
    "project": "Sunday Skool",
@@ -321,7 +321,7 @@
    "poster": "bts/mg-room130-sunday-skool.jpg",
    "preview": "bts/mg-room130-sunday-skool-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "51395a4e5139880ddd6da232ecb04def"
   },
   "mg-summer-daze": {
    "project": "Perfect Summer Daze",
@@ -335,7 +335,7 @@
    "poster": "bts/mg-summer-daze.jpg",
    "preview": "bts/mg-summer-daze-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "68ce807ef8c9740ab6b79bdacda7e0ea"
   },
   "snip-jazziq-lolo": {
    "project": "JazziQ and Friends",
@@ -349,7 +349,7 @@
    "poster": "bts/snip-jazziq-lolo.jpg",
    "preview": "bts/snip-jazziq-lolo-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "60d6cf79bc790f2bea183cb2bb07a726"
   },
   "snip-jazziq-w4de": {
    "project": "JazziQ and Friends",
@@ -363,7 +363,7 @@
    "poster": "bts/snip-jazziq-w4de.jpg",
    "preview": "bts/snip-jazziq-w4de-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "b20fe8fbba6631c5b934c06b1deede52"
   },
   "snip-jazziq": {
    "project": "JazziQ and Friends",
@@ -377,7 +377,7 @@
    "poster": "bts/snip-jazziq.jpg",
    "preview": "bts/snip-jazziq-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "74368e3685db82a7d3736f659dfb1381"
   },
   "snip-legacy-ep": {
    "project": "The Legacy Collective",
@@ -391,7 +391,7 @@
    "poster": "bts/snip-legacy-ep.jpg",
    "preview": "bts/snip-legacy-ep-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "51cffc75a584451944b6888bbca99eb3"
   },
   "snip-trashed-2": {
    "project": "Trashed",
@@ -405,7 +405,7 @@
    "poster": "bts/snip-trashed-2.jpg",
    "preview": "bts/snip-trashed-2-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "c8d74eacbf7fc51ccb87d38fc72965e7"
   },
   "snip-trashed": {
    "project": "Trashed",
@@ -419,7 +419,7 @@
    "poster": "bts/snip-trashed.jpg",
    "preview": "bts/snip-trashed-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "58b453cffa22452b2d8377f50287589c"
   },
   "mg-livsandton-high-society": {
    "project": "High Society",
@@ -433,7 +433,7 @@
    "poster": "bts/mg-livsandton-high-society.jpg",
    "preview": "bts/mg-livsandton-high-society-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "10729073c3581adbd590a71039bc5fce"
   },
   "mg-livonbree-paradise": {
    "project": "Liv in Paradise",
@@ -447,7 +447,7 @@
    "poster": "bts/mg-livonbree-paradise.jpg",
    "preview": "bts/mg-livonbree-paradise-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "72b09b4b7fff828a01f56b9a4eb39f66"
   },
   "mg-livsandton-livflix": {
    "project": "LIVFLIX",
@@ -461,7 +461,7 @@
    "poster": "bts/mg-livsandton-livflix.jpg",
    "preview": "bts/mg-livsandton-livflix-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "19527b82c914fc2dd70c7e0378fbb0fa"
   },
   "mg-summer-daze-noxolo": {
    "project": "Perfect Summer Daze",
@@ -475,7 +475,7 @@
    "poster": "bts/mg-summer-daze-noxolo.jpg",
    "preview": "bts/mg-summer-daze-noxolo-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "dcd6a4665ee28aa8554c680a55b8b2b0"
   },
   "mg-livsandton-saga-nov": {
    "project": "Sunday Saga",
@@ -489,7 +489,7 @@
    "poster": "bts/mg-livsandton-saga-nov.jpg",
    "preview": "bts/mg-livsandton-saga-nov-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "8a3be83581ab3ffb3f96716937658e60"
   },
   "mg-rockets-lifestyle": {
    "project": "Lifestyle Fridays",
@@ -503,7 +503,7 @@
    "poster": "bts/mg-rockets-lifestyle.jpg",
    "preview": "bts/mg-rockets-lifestyle-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "958fc36f4603c20891f15e8cd9e3618d"
   },
   "mg-lsc-amaroto": {
    "project": "Amaroto",
@@ -517,7 +517,7 @@
    "poster": "bts/mg-lsc-amaroto.jpg",
    "preview": "bts/mg-lsc-amaroto-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "3e8a428d71746180c57d6f57dcb23883"
   },
   "mg-lsc-boohle": {
    "project": "Boohle",
@@ -531,7 +531,7 @@
    "poster": "bts/mg-lsc-boohle.jpg",
    "preview": "bts/mg-lsc-boohle-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "b46e24eb61714ca92b81a2e996d6e678"
   },
   "mg-livsandton-saga-feb": {
    "project": "Sunday Saga",
@@ -545,7 +545,7 @@
    "poster": "bts/mg-livsandton-saga-feb.jpg",
    "preview": "bts/mg-livsandton-saga-feb-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "d4d4ac3a4b87be61cf2b3fb640a38cf4"
   },
   "bts-legacy-event": {
    "project": "The Legacy Collective",
@@ -559,7 +559,7 @@
    "poster": "bts/bts-legacy-event.jpg",
    "preview": "bts/bts-legacy-event-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "751a23abb71c3d581dd8f2054747568f"
   },
   "dj-tirhani": {
    "project": "Tirhani",
@@ -573,7 +573,7 @@
    "poster": "bts/dj-tirhani.jpg",
    "preview": "bts/dj-tirhani-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "8081a760fb41c859a2229bc77bd7ff18"
   },
   "dj-tsebebe": {
    "project": "Tsebebe Moroke",
@@ -587,7 +587,7 @@
    "poster": "bts/dj-tsebebe.jpg",
    "preview": "bts/dj-tsebebe-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "fd4ca1bab055ee0a435decf63955a5a6"
   },
   "dj-zee": {
    "project": "Zee",
@@ -601,7 +601,7 @@
    "poster": "bts/dj-zee.jpg",
    "preview": "bts/dj-zee-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "d8c3ab8ae33301f0fe1a45fcd20661a8"
   },
   "dj-dlala": {
    "project": "Dlala Thukzin",
@@ -615,7 +615,7 @@
    "poster": "bts/dj-dlala.jpg",
    "preview": "bts/dj-dlala-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "6fe6e0f72136dfdb8eae79b7c4dc707a"
   },
   "dj-xduppy": {
    "project": "X Duppy",
@@ -629,7 +629,7 @@
    "poster": "bts/dj-xduppy.jpg",
    "preview": "bts/dj-xduppy-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "f7739d23b283389afb0916a8208da721"
   },
   "dj-2wobunnies": {
    "project": "2wo Bunnies",
@@ -643,7 +643,7 @@
    "poster": "bts/dj-2wobunnies.jpg",
    "preview": "bts/dj-2wobunnies-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "8ed25d77bd79a3325e0299dd2a787c3d"
   },
   "dj-daliwonga": {
    "project": "Daliwonga",
@@ -657,7 +657,7 @@
    "poster": "bts/dj-daliwonga.jpg",
    "preview": "bts/dj-daliwonga-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "db6082ec3f7cab2a730fd1e278d77aa9"
   },
   "dj-kelvinmomo": {
    "project": "Kelvin Momo",
@@ -671,7 +671,7 @@
    "poster": "bts/dj-kelvinmomo.jpg",
    "preview": "bts/dj-kelvinmomo-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "491139ef3c0f86ead93be563b57d8d2b"
   },
   "dj-drihanna": {
    "project": "Drihanna",
@@ -685,7 +685,7 @@
    "poster": "bts/dj-drihanna.jpg",
    "preview": "bts/dj-drihanna-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "7011c1020100fe068c77881b751aaecc"
   },
   "mg-story-for-two": {
    "project": "A Story for Two",
@@ -699,7 +699,7 @@
    "poster": "bts/mg-story-for-two.jpg",
    "preview": "bts/mg-story-for-two-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "0b349e97aa153adf830676d88952bc00"
   },
   "mg-livsandton-saga-may": {
    "project": "Sunday Saga",
@@ -713,7 +713,7 @@
    "poster": "bts/mg-livsandton-saga-may.jpg",
    "preview": "bts/mg-livsandton-saga-may-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "41cc77182ab495707482330f8dda5549"
   },
   "mg-livsandton-saga-recap": {
    "project": "Sunday Saga Recap",
@@ -727,7 +727,7 @@
    "poster": "bts/mg-livsandton-saga-recap.jpg",
    "preview": "bts/mg-livsandton-saga-recap-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "ffb03387aa42df795fc275e5c4a063fa"
   },
   "dj-2wobunnies-celavi": {
    "project": "2wo Bunnies",
@@ -741,7 +741,7 @@
    "poster": "bts/dj-2wobunnies-celavi.jpg",
    "preview": "bts/dj-2wobunnies-celavi-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "0587c93145c8b5464784419a55d3fe6f"
   },
   "mg-livsandton-ff-jazziq": {
    "project": "FR3QNCY Fridays",
@@ -755,7 +755,7 @@
    "poster": "bts/mg-livsandton-ff-jazziq.jpg",
    "preview": "bts/mg-livsandton-ff-jazziq-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "2743e69ef27535b208070c8291fa7f21"
   },
   "mg-livsandton-hs-oct": {
    "project": "High Society",
@@ -769,7 +769,7 @@
    "poster": "bts/mg-livsandton-hs-oct.jpg",
    "preview": "bts/mg-livsandton-hs-oct-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "9f1c078d496ffe26bb73cfc5897a79ef"
   },
   "mg-livsandton-saga-jun": {
    "project": "Sunday Saga",
@@ -783,7 +783,7 @@
    "poster": "bts/mg-livsandton-saga-jun.jpg",
    "preview": "bts/mg-livsandton-saga-jun-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "4dfa7a2719656f654c5c30a20d2caab5"
   },
   "mg-maracana-std-poster": {
    "project": "11:11 Save the Date",
@@ -797,7 +797,7 @@
    "poster": "bts/mg-maracana-std-poster.jpg",
    "preview": "bts/mg-maracana-std-poster-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "4358ec70f306814d19c66b1181e477d0"
   },
   "mg-maracana-std-promo": {
    "project": "11:11 Tickets Live",
@@ -811,7 +811,7 @@
    "poster": "bts/mg-maracana-std-promo.jpg",
    "preview": "bts/mg-maracana-std-promo-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "5ca8c4b3040dacc8f455b344140f4971"
   },
   "mg-livsandton-superstar-ko": {
    "project": "Superstar Saturday",
@@ -825,7 +825,7 @@
    "poster": "bts/mg-livsandton-superstar-ko.jpg",
    "preview": "bts/mg-livsandton-superstar-ko-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "291e0a68556644ed809dfe431e70c7da"
   },
   "bts-volcan-liv": {
    "project": "How We Liv",
@@ -839,7 +839,7 @@
    "poster": "bts/bts-volcan-liv.jpg",
    "preview": "bts/bts-volcan-liv-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "08192a24fedf2da26ecfce380f02e9a6"
   },
   "tr-nandz-spa": {
    "project": "Living with Bigg Nandz",
@@ -853,7 +853,7 @@
    "poster": "bts/tr-nandz-spa.jpg",
    "preview": "bts/tr-nandz-spa-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "2bf3dbc8ce012481205e75f63d66b072"
   },
   "tr-nandz-zinhle": {
    "project": "Living with Bigg Nandz",
@@ -867,7 +867,7 @@
    "poster": "bts/tr-nandz-zinhle.jpg",
    "preview": "bts/tr-nandz-zinhle-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "3d9befc1f01f0ee99c3aea0670528e0e"
   },
   "tr-nandz-zazi": {
    "project": "Living with Bigg Nandz",
@@ -881,7 +881,7 @@
    "poster": "bts/tr-nandz-zazi.jpg",
    "preview": "bts/tr-nandz-zazi-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "e826c7aa49d202dbfa97fd532dd4a400"
   },
   "snip-nandz-set": {
    "project": "Bigg Nandz Beats",
@@ -895,7 +895,7 @@
    "poster": "bts/snip-nandz-set.jpg",
    "preview": "bts/snip-nandz-set-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "23f86e34f2bd2772e77d1579eeb4cad4"
   },
   "snip-jazziq-web": {
    "project": "JazziQ and Friends",
@@ -909,7 +909,7 @@
    "poster": "bts/snip-jazziq-web.jpg",
    "preview": "bts/snip-jazziq-web-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "9c98e2757ffd2e09eebc3462af5bb88b"
   },
   "tr-atw-khanda": {
    "project": "Against the Wall",
@@ -923,7 +923,7 @@
    "poster": "bts/tr-atw-khanda.jpg",
    "preview": "bts/tr-atw-khanda-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "f78bf55bc8224c7a33f6df3edd4bc835"
   },
   "tr-car-reel": {
    "project": "Living with Bigg Nandz",
@@ -938,7 +938,7 @@
    "poster": "bts/tr-car-reel.jpg",
    "preview": "bts/tr-car-reel-loop.mp4",
    "local": true,
-   "streamId": ""
+   "streamId": "9ab134a7410a1aca6f6043b31bc1a952"
   },
   "mg-livsandton-ff-dali": {
    "project": "Daliwonga Live Tonight",
@@ -952,7 +952,7 @@
    "poster": "bts/mg-livsandton-ff-dali.jpg",
    "preview": "bts/mg-livsandton-ff-dali-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "7a6c080e905d6b1679e981152d2d6765"
   },
   "mg-livsandton-ff-bunnies": {
    "project": "2wo Bunnies Live Tonight",
@@ -966,7 +966,7 @@
    "poster": "bts/mg-livsandton-ff-bunnies.jpg",
    "preview": "bts/mg-livsandton-ff-bunnies-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "7851a90bdf1a887a506a3d766c66247f"
   },
   "mg-livsandton-ff-foca": {
    "project": "Focalistic",
@@ -980,7 +980,7 @@
    "poster": "bts/mg-livsandton-ff-foca.jpg",
    "preview": "bts/mg-livsandton-ff-foca-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "101d60d5fdf7a453644ffe0114a98090"
   },
   "mg-livsandton-ff-kabza": {
    "project": "Kabza De Small",
@@ -994,7 +994,7 @@
    "poster": "bts/mg-livsandton-ff-kabza.jpg",
    "preview": "bts/mg-livsandton-ff-kabza-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "cbfc0a4a71bb31d6b3dcf92d35bcb137"
   },
   "dj-shishiliza": {
    "project": "Shishiliza",
@@ -1008,7 +1008,7 @@
    "poster": "bts/dj-shishiliza.jpg",
    "preview": "bts/dj-shishiliza-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "513078e599337f43691119efa1d4ab4f"
   },
   "vdj-goldmax": {
    "project": "Goldmax",
@@ -1022,7 +1022,7 @@
    "poster": "bts/vdj-goldmax.jpg",
    "preview": "bts/vdj-goldmax-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "8209913525bd1bab757998a2b6008105"
   },
   "vdj-thuli": {
    "project": "Thuli P",
@@ -1036,7 +1036,7 @@
    "poster": "bts/vdj-thuli.jpg",
    "preview": "bts/vdj-thuli-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "838db4530962a9a6924974e16b08106d"
   },
   "vdj-darque": {
    "project": "Darque",
@@ -1050,7 +1050,7 @@
    "poster": "bts/vdj-darque.jpg",
    "preview": "bts/vdj-darque-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "eefd7ec309a82ab7fff312ef89091a55"
   },
   "dj-nkosazana": {
    "project": "Nkosazana Daughter",
@@ -1064,7 +1064,7 @@
    "poster": "bts/dj-nkosazana.jpg",
    "preview": "bts/dj-nkosazana-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "a52d7ea19ee78ac33fb582018a043eb6"
   },
   "dj-china": {
    "project": "China Charmeleon",
@@ -1078,7 +1078,7 @@
    "poster": "bts/dj-china.jpg",
    "preview": "bts/dj-china-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "77f532a2ab5c59d89f97c64ba0107a75"
   },
   "dj-living-dream": {
    "project": "Living the Dream",
@@ -1092,7 +1092,7 @@
    "poster": "bts/dj-living-dream.jpg",
    "preview": "bts/dj-living-dream-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "2f2931ceecd627554c87d456429043e6"
   },
   "mg-livsandton-gatsby": {
    "project": "The Great Gatsby",
@@ -1106,7 +1106,7 @@
    "poster": "bts/mg-livsandton-gatsby.jpg",
    "preview": "bts/mg-livsandton-gatsby-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "1ff8d8efc7c30f957a5d67e728cb9e53"
   },
   "mg-livsandton-hs-jun12": {
    "project": "High Society",
@@ -1120,7 +1120,7 @@
    "poster": "bts/mg-livsandton-hs-jun12.jpg",
    "preview": "bts/mg-livsandton-hs-jun12-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "f23f8d311f744e52b0ae903a0ada98cb"
   },
   "mg-livsandton-hs-jun19": {
    "project": "High Society",
@@ -1134,7 +1134,7 @@
    "poster": "bts/mg-livsandton-hs-jun19.jpg",
    "preview": "bts/mg-livsandton-hs-jun19-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "bfc63d1b645da5dfc3deb3cf8827a115"
   },
   "mg-room130-marbella": {
    "project": "A Day in Marbella",
@@ -1148,7 +1148,7 @@
    "poster": "bts/mg-room130-marbella.jpg",
    "preview": "bts/mg-room130-marbella-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "56a62e4f888b669dabfe5e00f92cd4c8"
   },
   "mg-room130-mogodu": {
    "project": "Mogodu Monday",
@@ -1162,7 +1162,7 @@
    "poster": "bts/mg-room130-mogodu.jpg",
    "preview": "bts/mg-room130-mogodu-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "1a8667d294cd187de2485a919c70e979"
   },
   "mg-player-profile": {
    "project": "mg-player-profile",
@@ -1174,7 +1174,7 @@
    "poster": "bts/mg-player-profile.jpg",
    "preview": "bts/mg-player-profile-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "cb83189d2bb85e1dd50a47063f337c17"
   },
   "mg-summer-daze-promo": {
    "project": "Perfect Summer Daze",
@@ -1188,7 +1188,7 @@
    "poster": "bts/mg-summer-daze-promo.jpg",
    "preview": "bts/mg-summer-daze-promo-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "4c867a0f183e21260193fefbf0f51775"
   },
   "mg-summer-daze-3days": {
    "project": "Perfect Summer Daze",
@@ -1202,7 +1202,7 @@
    "poster": "bts/mg-summer-daze-3days.jpg",
    "preview": "bts/mg-summer-daze-3days-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "d06b4e160a31b5692ca422dcb7344ead"
   },
   "mg-may-edition": {
    "project": "The May Edition",
@@ -1216,7 +1216,7 @@
    "poster": "bts/mg-may-edition.jpg",
    "preview": "bts/mg-may-edition-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "02e429fec00c30a953e27a7c6dd8bb6f"
   },
   "mg-livonbree-winter": {
    "project": "Curated Sundays: Winter Sessions",
@@ -1230,7 +1230,7 @@
    "poster": "bts/mg-livonbree-winter.jpg",
    "preview": "bts/mg-livonbree-winter-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "7b29a9d38e501b865c5d622c7beeae45"
   },
   "mg-livsandton-superstar-jun28": {
    "project": "Superstar Saturday",
@@ -1244,7 +1244,7 @@
    "poster": "bts/mg-livsandton-superstar-jun28.jpg",
    "preview": "bts/mg-livsandton-superstar-jun28-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "57f2ce6468c2a0a05b2a7c9fb4bbad68"
   },
   "mg-livsandton-superstar-may31": {
    "project": "Superstar Saturday",
@@ -1258,7 +1258,7 @@
    "poster": "bts/mg-livsandton-superstar-may31.jpg",
    "preview": "bts/mg-livsandton-superstar-may31-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "9ff4588655e6615c2babecfca4af9e7c"
   },
   "mg-livsandton-gatsby-2": {
    "project": "The Great Gatsby: Save the Date",
@@ -1272,7 +1272,7 @@
    "poster": "bts/mg-livsandton-gatsby-2.jpg",
    "preview": "bts/mg-livsandton-gatsby-2-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "f06ed4dcc4c709f391c5e0d1daa722d8"
   },
   "mg-livsandton-saga-jul": {
    "project": "Sunday Saga",
@@ -1286,7 +1286,7 @@
    "poster": "bts/mg-livsandton-saga-jul.jpg",
    "preview": "bts/mg-livsandton-saga-jul-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "f15c8320a1a22a87be238d73d04ae691"
   },
   "mg-livsandton-3rd-bday": {
    "project": "LIV 3rd Birthday",
@@ -1300,7 +1300,7 @@
    "poster": "bts/mg-livsandton-3rd-bday.jpg",
    "preview": "bts/mg-livsandton-3rd-bday-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "c98d0037c45a9b70bee487be45b2b407"
   },
   "tr-livgreen": {
    "project": "LIV Green Hospitality",
@@ -1314,7 +1314,7 @@
    "poster": "bts/tr-livgreen.jpg",
    "preview": "bts/tr-livgreen-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "18b7a4b51a46fabbd81e3953268aa162"
   },
   "vdj-amber-nomfundo": {
    "project": "Nomfundo",
@@ -1328,7 +1328,7 @@
    "poster": "bts/vdj-amber-nomfundo.jpg",
    "preview": "bts/vdj-amber-nomfundo-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "aade2c0ea717367d28cc22ed3a9c3406"
   },
   "vdj-amber-stakev": {
    "project": "Stakev",
@@ -1342,7 +1342,7 @@
    "poster": "bts/vdj-amber-stakev.jpg",
    "preview": "bts/vdj-amber-stakev-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "aebdad012ca92aeac7f68df8848e946e"
   },
   "vdj-amber-abidoza": {
    "project": "vdj-amber-abidoza",
@@ -1354,7 +1354,7 @@
    "poster": "bts/vdj-amber-abidoza.jpg",
    "preview": "bts/vdj-amber-abidoza-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "4ab19a9adb6ac062ae988dd34e37785a"
   },
   "tr-nandz-celavi": {
    "project": "Living with Bigg Nandz",
@@ -1368,7 +1368,7 @@
    "poster": "bts/tr-nandz-celavi.jpg",
    "preview": "bts/tr-nandz-celavi-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "d2346ac7bdde2b740312621866197949"
   },
   "tr-nandz-cook1": {
    "project": "Living with Bigg Nandz",
@@ -1382,7 +1382,7 @@
    "poster": "bts/tr-nandz-cook1.jpg",
    "preview": "bts/tr-nandz-cook1-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "bf65786081125857d08dd674da047fe1"
   },
   "tr-nandz-cook2": {
    "project": "Living with Bigg Nandz",
@@ -1397,7 +1397,7 @@
    "poster": "bts/tr-nandz-cook2.jpg",
    "preview": "bts/tr-nandz-cook2-loop.mp4",
    "local": true,
-   "streamId": ""
+   "streamId": "646ecc369e5999f6a36b74a41e4eeb8e"
   },
   "tr-jazziq": {
    "project": "JazziQ and Friends",
@@ -1413,7 +1413,7 @@
    "poster": "bts/tr-jazziq.jpg",
    "preview": "bts/tr-jazziq-loop.mp4",
    "local": true,
-   "streamId": ""
+   "streamId": "5262cdbbea3bd035dba1f44650a0f62c"
   },
   "tr-nandz-l6": {
    "project": "Living with Bigg Nandz",
@@ -1427,7 +1427,7 @@
    "poster": "bts/tr-nandz-l6.jpg",
    "preview": "bts/tr-nandz-l6-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "77344f03cfb2011d0013c47dcba25641"
   },
   "tr-nandz-l7": {
    "project": "Living with Bigg Nandz",
@@ -1441,7 +1441,7 @@
    "poster": "bts/tr-nandz-l7.jpg",
    "preview": "bts/tr-nandz-l7-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "ebe6f5ac1fd1b30d75c1085b0a710811"
   },
   "tr-nandz-l8": {
    "project": "Living with Bigg Nandz",
@@ -1455,7 +1455,7 @@
    "poster": "bts/tr-nandz-l8.jpg",
    "preview": "bts/tr-nandz-l8-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "0f985070de89d83789003d5ef540735b"
   },
   "am-legacy-1": {
    "project": "am-legacy-1",
@@ -1467,7 +1467,7 @@
    "poster": "bts/am-legacy-1.jpg",
    "preview": "bts/am-legacy-1-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "5c1444fb62c6fb7058f39e02c8752282"
   },
   "am-legacy-2": {
    "project": "The Legacy Collective",
@@ -1481,7 +1481,7 @@
    "poster": "bts/am-legacy-2.jpg",
    "preview": "bts/am-legacy-2-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "9b432884cf8bededf361a598a83aa2b4"
   },
   "am-legacy-3": {
    "project": "The Legacy Collective",
@@ -1495,7 +1495,7 @@
    "poster": "bts/am-legacy-3.jpg",
    "preview": "bts/am-legacy-3-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "8dac70af0beecf9f9340b6bfe065ad25"
   },
   "mg-livsandton-living-dream": {
    "project": "Living the Dream",
@@ -1509,7 +1509,7 @@
    "poster": "bts/mg-livsandton-living-dream.jpg",
    "preview": "bts/mg-livsandton-living-dream-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "7eda2ed2d6515fb8ac0b672c4fbe5a89"
   },
   "tr-rated-r": {
    "project": "Rated R",
@@ -1523,7 +1523,7 @@
    "poster": "bts/tr-rated-r.jpg",
    "preview": "bts/tr-rated-r-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "e44d5f676afba3e6cb28b046277acf1e"
   },
   "tr-legacy-khanyisa": {
    "project": "The Legacy Collective",
@@ -1537,7 +1537,7 @@
    "poster": "bts/tr-legacy-khanyisa.jpg",
    "preview": "bts/tr-legacy-khanyisa-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "018ac4e61d4f0d8a78e35675c8ac1c47"
   },
   "am-legacy-4": {
    "project": "The Legacy Collective",
@@ -1551,7 +1551,7 @@
    "poster": "bts/am-legacy-4.jpg",
    "preview": "bts/am-legacy-4-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "7d695450750a836f00013980b8137b1a"
   },
   "snip-podcast-3": {
    "project": "In the Cut",
@@ -1565,7 +1565,7 @@
    "poster": "bts/snip-podcast-3.jpg",
    "preview": "bts/snip-podcast-3-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "055321383975ff294e7f223bed78898e"
   },
   "snip-rated-r-2": {
    "project": "How We Liv Podcast",
@@ -1579,7 +1579,7 @@
    "poster": "bts/snip-rated-r-2.jpg",
    "preview": "bts/snip-rated-r-2-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "adcac1dbfd4a17e94b133dc37b31246a"
   },
   "mg-story-yalla": {
    "project": "Y'alla",
@@ -1593,7 +1593,7 @@
    "poster": "bts/mg-story-yalla.jpg",
    "preview": "bts/mg-story-yalla-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "d8f70a9ccc22445944f2832a74308c93"
   },
   "mg-story-therapy": {
    "project": "Thursday Therapy",
@@ -1607,7 +1607,7 @@
    "poster": "bts/mg-story-therapy.jpg",
    "preview": "bts/mg-story-therapy-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "74bf36232fd42df34f8fd256a21021ac"
   },
   "set-2": {
    "project": "Bigg Nandz Beats",
@@ -1621,7 +1621,7 @@
    "poster": "bts/set-2.jpg",
    "preview": "bts/set-2-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "ae01cb95764c9c298a1f5817d63b0fb0"
   },
   "set-3": {
    "project": "Bigg Nandz Beats",
@@ -1635,7 +1635,7 @@
    "poster": "bts/set-3.jpg",
    "preview": "bts/set-3-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "5b1b548c39421732c6660aa79327260d"
   },
   "set-4": {
    "project": "Vaal River Sundays",
@@ -1649,7 +1649,7 @@
    "poster": "bts/set-4.jpg",
    "preview": "bts/set-4-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "187dcedd5afac2e8ff4d0bb2f8f97863"
   },
   "set-5": {
    "project": "Vaal River Sundays",
@@ -1663,7 +1663,7 @@
    "poster": "bts/set-5.jpg",
    "preview": "bts/set-5-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "ecedffcbe1bf0f7c07a5a82bffa20e37"
   },
   "set-6": {
    "project": "Vaal River Sundays",
@@ -1678,7 +1678,7 @@
    "poster": "bts/set-6.jpg",
    "preview": "bts/set-6-loop.mp4",
    "local": true,
-   "streamId": ""
+   "streamId": "3eac7ce2fa9aac3233809c8207a9a4f4"
   },
   "snip-show-3": {
    "project": "Abantu Abadala",
@@ -1692,7 +1692,7 @@
    "poster": "bts/snip-show-3.jpg",
    "preview": "bts/snip-show-3-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "72c50d4ca4a30bf51ea492904ef01c7a"
   },
   "snip-show-1": {
    "project": "Don't Be Surprised",
@@ -1706,7 +1706,7 @@
    "poster": "bts/snip-show-1.jpg",
    "preview": "bts/snip-show-1-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "f98847fcf1e43cd536a2089ac9255c69"
   },
   "snip-show-6": {
    "project": "Sex and Stuff",
@@ -1720,7 +1720,7 @@
    "poster": "bts/snip-show-6.jpg",
    "preview": "bts/snip-show-6-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "d8b0631b2e596ee52e765d23b5912858"
   },
   "vdj-amber-amo": {
    "project": "Amo Africa",
@@ -1734,7 +1734,7 @@
    "poster": "bts/vdj-amber-amo.jpg",
    "preview": "bts/vdj-amber-amo-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "9d3b422461060ffed7e5bc00638b873d"
   },
   "vdj-amber-banques": {
    "project": "Banques",
@@ -1748,7 +1748,7 @@
    "poster": "bts/vdj-amber-banques.jpg",
    "preview": "bts/vdj-amber-banques-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "4005ee37e0b732b1a677f590e3157e30"
   },
   "snip-show-13": {
    "project": "Against the Wall",
@@ -1762,7 +1762,7 @@
    "poster": "bts/snip-show-13.jpg",
    "preview": "bts/snip-show-13-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "64d7f262ad96f415ac5a21c98688c858"
   },
   "vdj-amber-ricky": {
    "project": "Ricky Lenyora",
@@ -1776,7 +1776,7 @@
    "poster": "bts/vdj-amber-ricky.jpg",
    "preview": "bts/vdj-amber-ricky-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "101741a25533435beabdfa728b0a9527"
   },
   "snip-show-4": {
    "project": "Tresemm\u00c3\u00a9",
@@ -1790,7 +1790,7 @@
    "poster": "bts/snip-show-4.jpg",
    "preview": "bts/snip-show-4-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "baabb4b3dd0fd80b87d423246623bb9e"
   },
   "snip-show-10": {
    "project": "Abantu Abadala",
@@ -1804,7 +1804,7 @@
    "poster": "bts/snip-show-10.jpg",
    "preview": "bts/snip-show-10-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "5322941a8d1381194442b51c5cd8ae2e"
   },
   "snip-show-9": {
    "project": "The Pope of Pop Culture",
@@ -1818,7 +1818,7 @@
    "poster": "bts/snip-show-9.jpg",
    "preview": "bts/snip-show-9-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "9c60a66d0ecfb7b8382cb5bdcfc3a364"
   },
   "bg-macg": {
    "project": "Podcast and Chill with MacG",
@@ -1832,7 +1832,7 @@
    "poster": "bts/bg-macg.jpg",
    "preview": null,
    "local": true,
-   "streamId": ""
+   "streamId": "71d5101792fef25f626705cdd7af0996"
   },
   "bg-tlc": {
    "project": "The Love Clinic",
@@ -1847,7 +1847,7 @@
    "poster": "bts/bg-tlc.jpg",
    "preview": null,
    "local": true,
-   "streamId": ""
+   "streamId": "68a71cf8c18c698af439ec56e88cf7f8"
   },
   "bg-legacy": {
    "project": "The Legacy Collective",
@@ -1862,7 +1862,7 @@
    "poster": "bts/bg-legacy.jpg",
    "preview": null,
    "local": true,
-   "streamId": ""
+   "streamId": "63e8e7ef45bdc124216ea8a651cf0231"
   },
   "dj-money-talks": {
    "project": "Shaun 101",
@@ -1876,7 +1876,7 @@
    "poster": "bts/dj-money-talks.jpg",
    "preview": "bts/dj-money-talks-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "8a8ba5631fd00686eb51df0e8c805cd9"
   },
   "am-legacy-5": {
    "project": "The Legacy Collective",
@@ -1890,7 +1890,7 @@
    "poster": "bts/am-legacy-5.jpg",
    "preview": "bts/am-legacy-5-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "1d00883367b7cd879187d5a42673c392"
   },
   "am-legacy-6": {
    "project": "The Legacy Collective",
@@ -1904,7 +1904,7 @@
    "poster": "bts/am-legacy-6.jpg",
    "preview": "bts/am-legacy-6-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "3b7107977f48c40d04e03f75b06d3943"
   },
   "am-legacy-7": {
    "project": "The Legacy Collective",
@@ -1918,7 +1918,7 @@
    "poster": "bts/am-legacy-7.jpg",
    "preview": "bts/am-legacy-7-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "a68124ffadad0f19ceebee57f56ce132"
   },
   "am-legacy-8": {
    "project": "am-legacy-8",
@@ -1930,7 +1930,7 @@
    "poster": "bts/am-legacy-8.jpg",
    "preview": "bts/am-legacy-8-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "20da3eb6acd7c92c1614fce7e7ebdd27"
   },
   "snip-podcast-4": {
    "project": "JazziQ and Friends",
@@ -1944,7 +1944,7 @@
    "poster": "bts/snip-podcast-4.jpg",
    "preview": "bts/snip-podcast-4-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "5cd327bb9425c486accf0eb21ae93244"
   },
   "snip-podcast-6": {
    "project": "The Legacy Collective",
@@ -1958,7 +1958,7 @@
    "poster": "bts/snip-podcast-6.jpg",
    "preview": "bts/snip-podcast-6-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "4541e3ea8e569714623441c4ffc4bac3"
   },
   "snip-rated-r-1": {
    "project": "The Rated R Podcast",
@@ -1972,7 +1972,7 @@
    "poster": "bts/snip-rated-r-1.jpg",
    "preview": "bts/snip-rated-r-1-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "d53b0b8ac2eb8e7a3fa092d3d96e018c"
   },
   "bg-ratedr": {
    "project": "The Rated R Podcast: Dawn Thandeka King",
@@ -1986,7 +1986,7 @@
    "poster": "bts/bg-ratedr.jpg",
    "preview": null,
    "local": true,
-   "streamId": ""
+   "streamId": "b5ae6af60edfadd26ea4b6e051454f51"
   },
   "bg-musa": {
    "project": "Musa Khawula: The Pope of Pop Culture",
@@ -2000,7 +2000,7 @@
    "poster": "bts/bg-musa.jpg",
    "preview": null,
    "local": true,
-   "streamId": ""
+   "streamId": "100a2aeb523cbeeb1f0f29576f138978"
   },
   "bg-opend": {
    "project": "Open'd with Dineo Ranaka",
@@ -2014,7 +2014,7 @@
    "poster": "bts/bg-opend.jpg",
    "preview": null,
    "local": true,
-   "streamId": ""
+   "streamId": "09789464e0e4650f25dfd4813533381a"
   },
   "bg-celeb": {
    "project": "Podcast and Chill: Celebrity Edition",
@@ -2028,7 +2028,7 @@
    "poster": "bts/bg-celeb.jpg",
    "preview": null,
    "local": true,
-   "streamId": ""
+   "streamId": "1d4cf067ff2a1af491342729fb5cd495"
   },
   "tr-khanyisa-final": {
    "project": "Khanyisa M",
@@ -2042,7 +2042,7 @@
    "poster": "bts/tr-khanyisa-final.jpg",
    "preview": "bts/tr-khanyisa-final-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "eb5210984852734a692f61e9cf61cafd"
   },
   "tr-khanyisa-jetour": {
    "project": "Khanyisa M \u00c3\u2014 Jetour",
@@ -2056,7 +2056,7 @@
    "poster": "bts/tr-khanyisa-jetour.jpg",
    "preview": "bts/tr-khanyisa-jetour-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "6b1f01ddc0195fc88b5f254e4771184b"
   },
   "tr-khanyisa-table": {
    "project": "Khanyisa M",
@@ -2070,7 +2070,7 @@
    "poster": "bts/tr-khanyisa-table.jpg",
    "preview": "bts/tr-khanyisa-table-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "3e508b5dd8494b117a914401f1e37303"
   },
   "tr-khanyisa-vid3": {
    "project": "Khanyisa M",
@@ -2084,7 +2084,7 @@
    "poster": "bts/tr-khanyisa-vid3.jpg",
    "preview": "bts/tr-khanyisa-vid3-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "fea86b22c2ec22aec171d32caddc8ed0"
   },
   "mg-supercar": {
    "project": "Supercar",
@@ -2098,7 +2098,7 @@
    "poster": "bts/mg-supercar.jpg",
    "preview": "bts/mg-supercar-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "9a0a7a40049f07ff87a23f3970c7a3c6"
   },
   "snip-show-2": {
    "project": "The Pope of Pop Culture",
@@ -2112,7 +2112,7 @@
    "poster": "bts/snip-show-2.jpg",
    "preview": "bts/snip-show-2-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "a9c7aa2cdc2c81897c04e8aca9902809"
   },
   "snip-show-14": {
    "project": "Sex and Stuff",
@@ -2126,7 +2126,7 @@
    "poster": "bts/snip-show-14.jpg",
    "preview": "bts/snip-show-14-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "9363c5fdefbec96f30dc5a48845203d3"
   },
   "snip-show-7": {
    "project": "Against the Wall",
@@ -2140,7 +2140,7 @@
    "poster": "bts/snip-show-7.jpg",
    "preview": "bts/snip-show-7-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "06bcb82fdcfecc4892afe3777cdf2bcf"
   },
   "snip-show-12": {
    "project": "Against the Wall",
@@ -2154,7 +2154,7 @@
    "poster": "bts/snip-show-12.jpg",
    "preview": "bts/snip-show-12-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "8aa65f630f967ec75d390809748f023e"
   },
   "snip-show-11": {
    "project": "The Assembly with Gugu",
@@ -2168,7 +2168,7 @@
    "poster": "bts/snip-show-11.jpg",
    "preview": "bts/snip-show-11-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "692e12265d2161f1377f273623216497"
   },
   "snip-rated-r-7": {
    "project": "The Rated R Podcast",
@@ -2182,7 +2182,7 @@
    "poster": "bts/snip-rated-r-7.jpg",
    "preview": "bts/snip-rated-r-7-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "a214eb16ccbe8269507bd4248f3ec976"
   },
   "snip-show-5": {
    "project": "Against the Wall",
@@ -2196,7 +2196,7 @@
    "poster": "bts/snip-show-5.jpg",
    "preview": "bts/snip-show-5-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "52ea20f9bdb250093e22fd5261a5db63"
   },
   "snip-show-8": {
    "project": "The Assembly with Gugu",
@@ -2210,7 +2210,7 @@
    "poster": "bts/snip-show-8.jpg",
    "preview": "bts/snip-show-8-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "fc95a636d930e8a2cbab5a10f142a0e8"
   },
   "bts-hwl-2": {
    "project": "How We Liv",
@@ -2224,7 +2224,7 @@
    "poster": "bts/bts-hwl-2.jpg",
    "preview": "bts/bts-hwl-2-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "8ec3b5f145439a4b8c5b862f233b030b"
   },
   "bts-hwl-3": {
    "project": "How We Liv",
@@ -2238,7 +2238,7 @@
    "poster": "bts/bts-hwl-3.jpg",
    "preview": "bts/bts-hwl-3-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "d8b42a6ea79a87c0b98045e0ab876f60"
   },
   "bts-hwl-4": {
    "project": "How We Liv",
@@ -2252,7 +2252,7 @@
    "poster": "bts/bts-hwl-4.jpg",
    "preview": "bts/bts-hwl-4-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "f88486b21f93469b3e94c5a8011fa6fd"
   },
   "am-legacy-9": {
    "project": "The Legacy Collective",
@@ -2266,7 +2266,7 @@
    "poster": "bts/am-legacy-9.jpg",
    "preview": "bts/am-legacy-9-loop.mp4",
    "local": false,
-   "streamId": ""
+   "streamId": "4f5a2d4eee5cad3c541c32ddec469270"
   }
  }
 }
