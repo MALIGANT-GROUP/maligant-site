@@ -1,0 +1,21 @@
+# Netlify settings for maligantgroup.co.za (connected to this GitHub repo)
+[build]
+  publish = "site"
+  command = "node scripts/build-config.mjs"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# Posters, previews and thumbnails rarely change: let browsers keep them for a day and refresh in the background.
+[[headers]]
+  for = "/bts/*"
+  [headers.values]
+    Cache-Control = "public, max-age=86400, stale-while-revalidate=604800"
+[[headers]]
+  for = "/thumbs/*"
+  [headers.values]
+    Cache-Control = "public, max-age=86400, stale-while-revalidate=604800"
+[[headers]]
+  for = "/videos.config.js"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"

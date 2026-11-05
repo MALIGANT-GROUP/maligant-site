@@ -1,0 +1,6 @@
+# The full-HD originals live on Cloudflare Stream, never in this repo
+hd-videos/
+*.zip
+.DS_Store
+node_modules/
+.env

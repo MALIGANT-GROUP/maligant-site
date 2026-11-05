@@ -1,0 +1,11 @@
+{
+  "name": "maligant-site",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "node scripts/build-config.mjs",
+    "upload": "node scripts/upload-to-stream.mjs",
+    "ids": "node scripts/import-stream-ids.mjs"
+  }
+}

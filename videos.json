@@ -1,0 +1,2272 @@
+{
+ "customerCode": "",
+ "videos": {
+  "bts-blulyt": {
+   "project": "Blulyt",
+   "title": "Blulyt",
+   "detail": "Behind the shoot",
+   "sections": [
+    "Behind the scenes"
+   ],
+   "onSite": true,
+   "file": "bts-blulyt.mp4",
+   "poster": "bts/bts-blulyt.jpg",
+   "preview": "bts/bts-blulyt-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "bts-khanyisa-30": {
+   "project": "The Legacy Collective",
+   "title": "The Legacy Collective",
+   "detail": "with Khanyisa \u00c2\u00b7 30 sec",
+   "sections": [
+    "Aftermovies"
+   ],
+   "onSite": true,
+   "file": "bts-khanyisa-30.mp4",
+   "poster": "bts/bts-khanyisa-30.jpg",
+   "preview": "bts/bts-khanyisa-30-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "bts-khanyisa-reel": {
+   "project": "The Legacy Collective",
+   "title": "The Legacy Collective",
+   "detail": "with Khanyisa \u00c2\u00b7 full reel",
+   "sections": [
+    "Aftermovies"
+   ],
+   "onSite": true,
+   "file": "bts-khanyisa-reel.mp4",
+   "poster": "bts/bts-khanyisa-reel.jpg",
+   "preview": "bts/bts-khanyisa-reel-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "bts-love-clinic-couple": {
+   "project": "The Love Clinic",
+   "title": "The Love Clinic",
+   "detail": "Couples session",
+   "sections": [
+    "Behind the scenes"
+   ],
+   "onSite": true,
+   "file": "bts-love-clinic-couple.mp4",
+   "poster": "bts/bts-love-clinic-couple.jpg",
+   "preview": "bts/bts-love-clinic-couple-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "bts-love-clinic-lens": {
+   "project": "The Love Clinic",
+   "title": "The Love Clinic",
+   "detail": "Behind the lens",
+   "sections": [
+    "Behind the scenes"
+   ],
+   "onSite": true,
+   "file": "bts-love-clinic-lens.mp4",
+   "poster": "bts/bts-love-clinic-lens.jpg",
+   "preview": "bts/bts-love-clinic-lens-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "bts-love-clinic-onset": {
+   "project": "The Love Clinic",
+   "title": "The Love Clinic",
+   "detail": "On set",
+   "sections": [
+    "Behind the scenes"
+   ],
+   "onSite": true,
+   "file": "bts-love-clinic-onset.mp4",
+   "poster": "bts/bts-love-clinic-onset.jpg",
+   "preview": "bts/bts-love-clinic-onset-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "bts-love-clinic-setup": {
+   "project": "The Love Clinic",
+   "title": "The Love Clinic",
+   "detail": "Setting up",
+   "sections": [
+    "Behind the scenes"
+   ],
+   "onSite": true,
+   "file": "bts-love-clinic-setup.mp4",
+   "poster": "bts/bts-love-clinic-setup.jpg",
+   "preview": "bts/bts-love-clinic-setup-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "bts-s1": {
+   "project": "Trashed",
+   "title": "Trashed",
+   "detail": "Season 1 \u00c2\u00b7 Maligant Originals",
+   "sections": [
+    "Behind the scenes"
+   ],
+   "onSite": true,
+   "file": "bts-s1.mp4",
+   "poster": "bts/bts-s1.jpg",
+   "preview": "bts/bts-s1-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "mg-booth-ballers": {
+   "project": "Ballers & Bottles",
+   "title": "Ballers & Bottles",
+   "detail": "Booth Sandton \u00c2\u00b7 starring Kabza De Small",
+   "sections": [
+    "Motion graphics"
+   ],
+   "onSite": true,
+   "file": "mg-booth-ballers.mp4",
+   "poster": "bts/mg-booth-ballers.jpg",
+   "preview": "bts/mg-booth-ballers-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "mg-booth-boat": {
+   "project": "Boat",
+   "title": "Boat",
+   "detail": "Booth Sandton \u00c2\u00b7 Booth on a Tuesday with Usimamane",
+   "sections": [
+    "Motion graphics"
+   ],
+   "onSite": true,
+   "file": "mg-booth-boat.mp4",
+   "poster": "bts/mg-booth-boat.jpg",
+   "preview": "bts/mg-booth-boat-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "mg-booth-christmas": {
+   "project": "Christmas in the Booth",
+   "title": "Christmas in the Booth",
+   "detail": "Booth Sandton \u00c2\u00b7 25 December",
+   "sections": [
+    "Motion graphics"
+   ],
+   "onSite": true,
+   "file": "mg-booth-christmas.mp4",
+   "poster": "bts/mg-booth-christmas.jpg",
+   "preview": "bts/mg-booth-christmas-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "mg-booth-eden": {
+   "project": "Eden",
+   "title": "Eden",
+   "detail": "Booth Sandton \u00c2\u00b7 the biggest Sunday",
+   "sections": [
+    "Motion graphics"
+   ],
+   "onSite": true,
+   "file": "mg-booth-eden.mp4",
+   "poster": "bts/mg-booth-eden.jpg",
+   "preview": "bts/mg-booth-eden-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "mg-booth-piano-tuesday": {
+   "project": "Piano Tuesday",
+   "title": "Piano Tuesday",
+   "detail": "Booth Sandton \u00c2\u00b7 Boat, Stance edition",
+   "sections": [
+    "Motion graphics"
+   ],
+   "onSite": true,
+   "file": "mg-booth-piano-tuesday.mp4",
+   "poster": "bts/mg-booth-piano-tuesday.jpg",
+   "preview": "bts/mg-booth-piano-tuesday-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "mg-booth-surrender": {
+   "project": "Surrender",
+   "title": "Surrender",
+   "detail": "Booth Sandton \u00c2\u00b7 performance by Tellaman",
+   "sections": [
+    "Motion graphics"
+   ],
+   "onSite": true,
+   "file": "mg-booth-surrender.mp4",
+   "poster": "bts/mg-booth-surrender.jpg",
+   "preview": "bts/mg-booth-surrender-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "mg-celavi-welele": {
+   "project": "Welele",
+   "title": "Welele",
+   "detail": "CE\u00c2\u00b7LA\u00c2\u00b7VI Sandton \u00c2\u00b7 motion promo",
+   "sections": [
+    "Motion graphics"
+   ],
+   "onSite": true,
+   "file": "mg-celavi-welele.mp4",
+   "poster": "bts/mg-celavi-welele.jpg",
+   "preview": "bts/mg-celavi-welele-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "mg-livonbree-balimele": {
+   "project": "Balimele",
+   "title": "Balimele",
+   "detail": "LIV on Bree \u00c2\u00b7 Sovereign Saturdays with DBN Gogo",
+   "sections": [
+    "Motion graphics"
+   ],
+   "onSite": true,
+   "file": "mg-livonbree-balimele.mp4",
+   "poster": "bts/mg-livonbree-balimele.jpg",
+   "preview": "bts/mg-livonbree-balimele-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "mg-livonbree-curated": {
+   "project": "Curated Sundays",
+   "title": "Curated Sundays",
+   "detail": "LIV on Bree \u00c2\u00b7 Curated Sundays",
+   "sections": [
+    "Motion graphics"
+   ],
+   "onSite": true,
+   "file": "mg-livonbree-curated.mp4",
+   "poster": "bts/mg-livonbree-curated.jpg",
+   "preview": "bts/mg-livonbree-curated-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "mg-livsandton-halloween": {
+   "project": "Trick or Treat",
+   "title": "Trick or Treat",
+   "detail": "LIV Sandton \u00c2\u00b7 FR3QNCY Fridays Halloween",
+   "sections": [
+    "Motion graphics"
+   ],
+   "onSite": true,
+   "file": "mg-livsandton-halloween.mp4",
+   "poster": "bts/mg-livsandton-halloween.jpg",
+   "preview": "bts/mg-livsandton-halloween-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "mg-livsandton-nye": {
+   "project": "LIV in the Moment",
+   "title": "LIV in the Moment",
+   "detail": "LIV Sandton \u00c2\u00b7 New Year",
+   "sections": [
+    "Motion graphics"
+   ],
+   "onSite": true,
+   "file": "mg-livsandton-nye.mp4",
+   "poster": "bts/mg-livsandton-nye.jpg",
+   "preview": "bts/mg-livsandton-nye-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "mg-mothers-day": {
+   "project": "Happy Mother's Day",
+   "title": "Happy Mother's Day",
+   "detail": "Mother's Day animation",
+   "sections": [
+    "Motion graphics"
+   ],
+   "onSite": true,
+   "file": "mg-mothers-day.mp4",
+   "poster": "bts/mg-mothers-day.jpg",
+   "preview": "bts/mg-mothers-day-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "mg-room130-ballroom": {
+   "project": "The Ballroom",
+   "title": "The Ballroom",
+   "detail": "Room 130 \u00c2\u00b7 Thursdays",
+   "sections": [
+    "Motion graphics"
+   ],
+   "onSite": true,
+   "file": "mg-room130-ballroom.mp4",
+   "poster": "bts/mg-room130-ballroom.jpg",
+   "preview": "bts/mg-room130-ballroom-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "mg-room130-sessions": {
+   "project": "Room Sessions",
+   "title": "Room Sessions",
+   "detail": "Room 130 \u00c2\u00b7 Saturday day club",
+   "sections": [
+    "Motion graphics"
+   ],
+   "onSite": true,
+   "file": "mg-room130-sessions.mp4",
+   "poster": "bts/mg-room130-sessions.jpg",
+   "preview": "bts/mg-room130-sessions-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "mg-room130-sunday-skool": {
+   "project": "Sunday Skool",
+   "title": "Sunday Skool",
+   "detail": "Room 130 \u00c2\u00b7 Sunday Skool",
+   "sections": [
+    "Motion graphics"
+   ],
+   "onSite": true,
+   "file": "mg-room130-sunday-skool.mp4",
+   "poster": "bts/mg-room130-sunday-skool.jpg",
+   "preview": "bts/mg-room130-sunday-skool-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "mg-summer-daze": {
+   "project": "Perfect Summer Daze",
+   "title": "Perfect Summer Daze",
+   "detail": "Sounds by 2Disruptive \u00c2\u00b7 2D animation",
+   "sections": [
+    "Motion graphics"
+   ],
+   "onSite": true,
+   "file": "mg-summer-daze.mp4",
+   "poster": "bts/mg-summer-daze.jpg",
+   "preview": "bts/mg-summer-daze-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "snip-jazziq-lolo": {
+   "project": "JazziQ and Friends",
+   "title": "JazziQ and Friends",
+   "detail": "Season 2 \u00c2\u00b7 with Lolo",
+   "sections": [
+    "Podcast snippets"
+   ],
+   "onSite": true,
+   "file": "snip-jazziq-lolo.mp4",
+   "poster": "bts/snip-jazziq-lolo.jpg",
+   "preview": "bts/snip-jazziq-lolo-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "snip-jazziq-w4de": {
+   "project": "JazziQ and Friends",
+   "title": "JazziQ and Friends",
+   "detail": "Season 2 \u00c2\u00b7 with W4DE",
+   "sections": [
+    "Podcast snippets"
+   ],
+   "onSite": true,
+   "file": "snip-jazziq-w4de.mp4",
+   "poster": "bts/snip-jazziq-w4de.jpg",
+   "preview": "bts/snip-jazziq-w4de-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "snip-jazziq": {
+   "project": "JazziQ and Friends",
+   "title": "JazziQ and Friends",
+   "detail": "Season 2",
+   "sections": [
+    "Podcast snippets"
+   ],
+   "onSite": true,
+   "file": "snip-jazziq.mp4",
+   "poster": "bts/snip-jazziq.jpg",
+   "preview": "bts/snip-jazziq-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "snip-legacy-ep": {
+   "project": "The Legacy Collective",
+   "title": "The Legacy Collective",
+   "detail": "with Khanyisa \u00c2\u00b7 episode clip",
+   "sections": [
+    "Podcast snippets"
+   ],
+   "onSite": true,
+   "file": "snip-legacy-ep.mp4",
+   "poster": "bts/snip-legacy-ep.jpg",
+   "preview": "bts/snip-legacy-ep-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "snip-trashed-2": {
+   "project": "Trashed",
+   "title": "Trashed",
+   "detail": "Animated snippet",
+   "sections": [
+    "Podcast snippets"
+   ],
+   "onSite": true,
+   "file": "snip-trashed-2.mp4",
+   "poster": "bts/snip-trashed-2.jpg",
+   "preview": "bts/snip-trashed-2-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "snip-trashed": {
+   "project": "Trashed",
+   "title": "Trashed",
+   "detail": "Podcast snippet",
+   "sections": [
+    "Podcast snippets"
+   ],
+   "onSite": true,
+   "file": "snip-trashed.mp4",
+   "poster": "bts/snip-trashed.jpg",
+   "preview": "bts/snip-trashed-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "mg-livsandton-high-society": {
+   "project": "High Society",
+   "title": "High Society",
+   "detail": "LIV Sandton \u00c2\u00b7 Thursdays",
+   "sections": [
+    "Motion graphics"
+   ],
+   "onSite": true,
+   "file": "mg-livsandton-high-society.mp4",
+   "poster": "bts/mg-livsandton-high-society.jpg",
+   "preview": "bts/mg-livsandton-high-society-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "mg-livonbree-paradise": {
+   "project": "Liv in Paradise",
+   "title": "Liv in Paradise",
+   "detail": "LIV on Bree \u00c2\u00b7 save the date",
+   "sections": [
+    "Motion graphics"
+   ],
+   "onSite": true,
+   "file": "mg-livonbree-paradise.mp4",
+   "poster": "bts/mg-livonbree-paradise.jpg",
+   "preview": "bts/mg-livonbree-paradise-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "mg-livsandton-livflix": {
+   "project": "LIVFLIX",
+   "title": "LIVFLIX",
+   "detail": "LIV Sandton \u00c2\u00b7 Sunday Saga",
+   "sections": [
+    "Motion graphics"
+   ],
+   "onSite": true,
+   "file": "mg-livsandton-livflix.mp4",
+   "poster": "bts/mg-livsandton-livflix.jpg",
+   "preview": "bts/mg-livsandton-livflix-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "mg-summer-daze-noxolo": {
+   "project": "Perfect Summer Daze",
+   "title": "Perfect Summer Daze",
+   "detail": "Sounds by Noxolo \u00c2\u00b7 2D animation",
+   "sections": [
+    "Motion graphics"
+   ],
+   "onSite": true,
+   "file": "mg-summer-daze-noxolo.mp4",
+   "poster": "bts/mg-summer-daze-noxolo.jpg",
+   "preview": "bts/mg-summer-daze-noxolo-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "mg-livsandton-saga-nov": {
+   "project": "Sunday Saga",
+   "title": "Sunday Saga",
+   "detail": "LIV Sandton \u00c2\u00b7 every Sunday",
+   "sections": [
+    "Motion graphics"
+   ],
+   "onSite": true,
+   "file": "mg-livsandton-saga-nov.mp4",
+   "poster": "bts/mg-livsandton-saga-nov.jpg",
+   "preview": "bts/mg-livsandton-saga-nov-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "mg-rockets-lifestyle": {
+   "project": "Lifestyle Fridays",
+   "title": "Lifestyle Fridays",
+   "detail": "Rockets \u00c2\u00b7 Felo le Tee & Amo Africa",
+   "sections": [
+    "Motion graphics"
+   ],
+   "onSite": true,
+   "file": "mg-rockets-lifestyle.mp4",
+   "poster": "bts/mg-rockets-lifestyle.jpg",
+   "preview": "bts/mg-rockets-lifestyle-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "mg-lsc-amaroto": {
+   "project": "Amaroto",
+   "title": "Amaroto",
+   "detail": "LIV Summer Club \u00c2\u00b7 tickets on sale",
+   "sections": [
+    "Motion graphics"
+   ],
+   "onSite": true,
+   "file": "mg-lsc-amaroto.mp4",
+   "poster": "bts/mg-lsc-amaroto.jpg",
+   "preview": "bts/mg-lsc-amaroto-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "mg-lsc-boohle": {
+   "project": "Boohle",
+   "title": "Boohle",
+   "detail": "LIV Summer Club \u00c2\u00b7 tickets on sale",
+   "sections": [
+    "Motion graphics"
+   ],
+   "onSite": true,
+   "file": "mg-lsc-boohle.mp4",
+   "poster": "bts/mg-lsc-boohle.jpg",
+   "preview": "bts/mg-lsc-boohle-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "mg-livsandton-saga-feb": {
+   "project": "Sunday Saga",
+   "title": "Sunday Saga",
+   "detail": "LIV Sandton \u00c2\u00b7 Sunday Saga line-ups",
+   "sections": [
+    "Motion graphics"
+   ],
+   "onSite": true,
+   "file": "mg-livsandton-saga-feb.mp4",
+   "poster": "bts/mg-livsandton-saga-feb.jpg",
+   "preview": "bts/mg-livsandton-saga-feb-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "bts-legacy-event": {
+   "project": "The Legacy Collective",
+   "title": "The Legacy Collective",
+   "detail": "with Khanyisa \u00c2\u00b7 live event",
+   "sections": [
+    "Behind the scenes"
+   ],
+   "onSite": true,
+   "file": "bts-legacy-event.mp4",
+   "poster": "bts/bts-legacy-event.jpg",
+   "preview": "bts/bts-legacy-event-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "dj-tirhani": {
+   "project": "Tirhani",
+   "title": "Tirhani",
+   "detail": "LIV Sandton \u00c2\u00b7 Superstar Saturdays",
+   "sections": [
+    "DJ screens"
+   ],
+   "onSite": true,
+   "file": "dj-tirhani.mp4",
+   "poster": "bts/dj-tirhani.jpg",
+   "preview": "bts/dj-tirhani-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "dj-tsebebe": {
+   "project": "Tsebebe Moroke",
+   "title": "Tsebebe Moroke",
+   "detail": "LIV Sandton \u00c2\u00b7 Sunday Saga",
+   "sections": [
+    "DJ screens"
+   ],
+   "onSite": true,
+   "file": "dj-tsebebe.mp4",
+   "poster": "bts/dj-tsebebe.jpg",
+   "preview": "bts/dj-tsebebe-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "dj-zee": {
+   "project": "Zee",
+   "title": "Zee",
+   "detail": "LIV Sandton \u00c2\u00b7 FR3QNCY Fridays, Ladies Night",
+   "sections": [
+    "DJ screens"
+   ],
+   "onSite": true,
+   "file": "dj-zee.mp4",
+   "poster": "bts/dj-zee.jpg",
+   "preview": "bts/dj-zee-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "dj-dlala": {
+   "project": "Dlala Thukzin",
+   "title": "Dlala Thukzin",
+   "detail": "LIV Sandton \u00c2\u00b7 FR3QNCY Fridays",
+   "sections": [
+    "DJ screens"
+   ],
+   "onSite": true,
+   "file": "dj-dlala.mp4",
+   "poster": "bts/dj-dlala.jpg",
+   "preview": "bts/dj-dlala-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "dj-xduppy": {
+   "project": "X Duppy",
+   "title": "X Duppy",
+   "detail": "LIV on Bree \u00c2\u00b7 Cape Town",
+   "sections": [
+    "DJ screens"
+   ],
+   "onSite": true,
+   "file": "dj-xduppy.mp4",
+   "poster": "bts/dj-xduppy.jpg",
+   "preview": "bts/dj-xduppy-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "dj-2wobunnies": {
+   "project": "2wo Bunnies",
+   "title": "2wo Bunnies",
+   "detail": "LIV Sandton \u00c2\u00b7 High Society",
+   "sections": [
+    "DJ screens"
+   ],
+   "onSite": true,
+   "file": "dj-2wobunnies.mp4",
+   "poster": "bts/dj-2wobunnies.jpg",
+   "preview": "bts/dj-2wobunnies-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "dj-daliwonga": {
+   "project": "Daliwonga",
+   "title": "Daliwonga",
+   "detail": "LIV Sandton \u00c2\u00b7 FR3QNCY Fridays, Famo's birthday",
+   "sections": [
+    "DJ screens"
+   ],
+   "onSite": true,
+   "file": "dj-daliwonga.mp4",
+   "poster": "bts/dj-daliwonga.jpg",
+   "preview": "bts/dj-daliwonga-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "dj-kelvinmomo": {
+   "project": "Kelvin Momo",
+   "title": "Kelvin Momo",
+   "detail": "LIV Sandton \u00c2\u00b7 FR3QNCY Fridays",
+   "sections": [
+    "DJ screens"
+   ],
+   "onSite": true,
+   "file": "dj-kelvinmomo.mp4",
+   "poster": "bts/dj-kelvinmomo.jpg",
+   "preview": "bts/dj-kelvinmomo-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "dj-drihanna": {
+   "project": "Drihanna",
+   "title": "Drihanna",
+   "detail": "LIV Sandton \u00c2\u00b7 Sunday Saga, D\u00c3\u00ada de Muertos",
+   "sections": [
+    "DJ screens"
+   ],
+   "onSite": true,
+   "file": "dj-drihanna.mp4",
+   "poster": "bts/dj-drihanna.jpg",
+   "preview": "bts/dj-drihanna-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "mg-story-for-two": {
+   "project": "A Story for Two",
+   "title": "A Story for Two",
+   "detail": "Story \u00c2\u00b7 concept work \u00c2\u00b7 Wednesdays",
+   "sections": [
+    "Motion graphics"
+   ],
+   "onSite": true,
+   "file": "mg-story-for-two.mp4",
+   "poster": "bts/mg-story-for-two.jpg",
+   "preview": "bts/mg-story-for-two-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "mg-livsandton-saga-may": {
+   "project": "Sunday Saga",
+   "title": "Sunday Saga",
+   "detail": "LIV Sandton \u00c2\u00b7 Sunday Saga, 17 May",
+   "sections": [
+    "Motion graphics"
+   ],
+   "onSite": true,
+   "file": "mg-livsandton-saga-may.mp4",
+   "poster": "bts/mg-livsandton-saga-may.jpg",
+   "preview": "bts/mg-livsandton-saga-may-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "mg-livsandton-saga-recap": {
+   "project": "Sunday Saga Recap",
+   "title": "Sunday Saga Recap",
+   "detail": "LIV Sandton \u00c2\u00b7 Sunday Saga night recap",
+   "sections": [
+    "Motion graphics"
+   ],
+   "onSite": true,
+   "file": "mg-livsandton-saga-recap.mp4",
+   "poster": "bts/mg-livsandton-saga-recap.jpg",
+   "preview": "bts/mg-livsandton-saga-recap-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "dj-2wobunnies-celavi": {
+   "project": "2wo Bunnies",
+   "title": "2wo Bunnies",
+   "detail": "CE\u00c2\u00b7LA\u00c2\u00b7VI Sandton \u00c2\u00b7 On the Decks",
+   "sections": [
+    "DJ screens"
+   ],
+   "onSite": true,
+   "file": "dj-2wobunnies-celavi.mp4",
+   "poster": "bts/dj-2wobunnies-celavi.jpg",
+   "preview": "bts/dj-2wobunnies-celavi-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "mg-livsandton-ff-jazziq": {
+   "project": "FR3QNCY Fridays",
+   "title": "FR3QNCY Fridays",
+   "detail": "LIV Sandton \u00c2\u00b7 Mr JazziQ & DJ Cndo, with Martell",
+   "sections": [
+    "Motion graphics"
+   ],
+   "onSite": true,
+   "file": "mg-livsandton-ff-jazziq.mp4",
+   "poster": "bts/mg-livsandton-ff-jazziq.jpg",
+   "preview": "bts/mg-livsandton-ff-jazziq-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "mg-livsandton-hs-oct": {
+   "project": "High Society",
+   "title": "High Society",
+   "detail": "LIV Sandton \u00c2\u00b7 2 October line-up",
+   "sections": [
+    "Motion graphics"
+   ],
+   "onSite": true,
+   "file": "mg-livsandton-hs-oct.mp4",
+   "poster": "bts/mg-livsandton-hs-oct.jpg",
+   "preview": "bts/mg-livsandton-hs-oct-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "mg-livsandton-saga-jun": {
+   "project": "Sunday Saga",
+   "title": "Sunday Saga",
+   "detail": "LIV Sandton \u00c2\u00b7 22 June, DJ Tshegu, Vettys & Ndloh Jnr",
+   "sections": [
+    "Motion graphics"
+   ],
+   "onSite": true,
+   "file": "mg-livsandton-saga-jun.mp4",
+   "poster": "bts/mg-livsandton-saga-jun.jpg",
+   "preview": "bts/mg-livsandton-saga-jun-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "mg-maracana-std-poster": {
+   "project": "11:11 Save the Date",
+   "title": "11:11 Save the Date",
+   "detail": "Maracan\u00c3\u00a3 Sandton \u00c2\u00b7 11 April",
+   "sections": [
+    "Motion graphics"
+   ],
+   "onSite": true,
+   "file": "mg-maracana-std-poster.mp4",
+   "poster": "bts/mg-maracana-std-poster.jpg",
+   "preview": "bts/mg-maracana-std-poster-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "mg-maracana-std-promo": {
+   "project": "11:11 Tickets Live",
+   "title": "11:11 Tickets Live",
+   "detail": "Maracan\u00c3\u00a3 Sandton \u00c2\u00b7 11:11 promo",
+   "sections": [
+    "Motion graphics"
+   ],
+   "onSite": true,
+   "file": "mg-maracana-std-promo.mp4",
+   "poster": "bts/mg-maracana-std-promo.jpg",
+   "preview": "bts/mg-maracana-std-promo-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "mg-livsandton-superstar-ko": {
+   "project": "Superstar Saturday",
+   "title": "Superstar Saturday",
+   "detail": "LIV Sandton \u00c2\u00b7 K.O live, DJ Stokie, 27 September",
+   "sections": [
+    "Motion graphics"
+   ],
+   "onSite": true,
+   "file": "mg-livsandton-superstar-ko.mp4",
+   "poster": "bts/mg-livsandton-superstar-ko.jpg",
+   "preview": "bts/mg-livsandton-superstar-ko-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "bts-volcan-liv": {
+   "project": "How We Liv",
+   "title": "How We Liv",
+   "detail": "Volc\u00c3\u00a1n product shoot \u00c2\u00b7 behind the scenes",
+   "sections": [
+    "Behind the scenes"
+   ],
+   "onSite": true,
+   "file": "bts-volcan-liv.mp4",
+   "poster": "bts/bts-volcan-liv.jpg",
+   "preview": "bts/bts-volcan-liv-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "tr-nandz-spa": {
+   "project": "Living with Bigg Nandz",
+   "title": "Living with Bigg Nandz",
+   "detail": "Spa day \u00c2\u00b7 new episode trailer",
+   "sections": [
+    "Living with Bigg Nandz"
+   ],
+   "onSite": true,
+   "file": "tr-nandz-spa.mp4",
+   "poster": "bts/tr-nandz-spa.jpg",
+   "preview": "bts/tr-nandz-spa-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "tr-nandz-zinhle": {
+   "project": "Living with Bigg Nandz",
+   "title": "Living with Bigg Nandz",
+   "detail": "Zinhle episode trailer",
+   "sections": [
+    "Living with Bigg Nandz"
+   ],
+   "onSite": true,
+   "file": "tr-nandz-zinhle.mp4",
+   "poster": "bts/tr-nandz-zinhle.jpg",
+   "preview": "bts/tr-nandz-zinhle-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "tr-nandz-zazi": {
+   "project": "Living with Bigg Nandz",
+   "title": "Living with Bigg Nandz",
+   "detail": "Zazi episode trailer",
+   "sections": [
+    "Living with Bigg Nandz"
+   ],
+   "onSite": true,
+   "file": "tr-nandz-zazi.mp4",
+   "poster": "bts/tr-nandz-zazi.jpg",
+   "preview": "bts/tr-nandz-zazi-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "snip-nandz-set": {
+   "project": "Bigg Nandz Beats",
+   "title": "Bigg Nandz Beats",
+   "detail": "DJ set",
+   "sections": [
+    "DJ sets"
+   ],
+   "onSite": true,
+   "file": "snip-nandz-set.mp4",
+   "poster": "bts/snip-nandz-set.jpg",
+   "preview": "bts/snip-nandz-set-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "snip-jazziq-web": {
+   "project": "JazziQ and Friends",
+   "title": "JazziQ and Friends",
+   "detail": "Season 2",
+   "sections": [
+    "Podcast snippets"
+   ],
+   "onSite": true,
+   "file": "snip-jazziq-web.mp4",
+   "poster": "bts/snip-jazziq-web.jpg",
+   "preview": "bts/snip-jazziq-web-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "tr-atw-khanda": {
+   "project": "Against the Wall",
+   "title": "Against the Wall",
+   "detail": "Episode 7 trailer \u00c2\u00b7 with Khanda",
+   "sections": [
+    "Trailers"
+   ],
+   "onSite": true,
+   "file": "tr-atw-khanda.mp4",
+   "poster": "bts/tr-atw-khanda.jpg",
+   "preview": "bts/tr-atw-khanda-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "tr-car-reel": {
+   "project": "Living with Bigg Nandz",
+   "title": "Living with Bigg Nandz",
+   "detail": "Car shopping episode trailer",
+   "sections": [
+    "Grade slider",
+    "Living with Bigg Nandz"
+   ],
+   "onSite": true,
+   "file": "tr-car-reel.mp4",
+   "poster": "bts/tr-car-reel.jpg",
+   "preview": "bts/tr-car-reel-loop.mp4",
+   "local": true,
+   "streamId": ""
+  },
+  "mg-livsandton-ff-dali": {
+   "project": "Daliwonga Live Tonight",
+   "title": "Daliwonga Live Tonight",
+   "detail": "LIV Sandton \u00c2\u00b7 FR3QNCY Fridays, 30 January",
+   "sections": [
+    "Motion graphics"
+   ],
+   "onSite": true,
+   "file": "mg-livsandton-ff-dali.mp4",
+   "poster": "bts/mg-livsandton-ff-dali.jpg",
+   "preview": "bts/mg-livsandton-ff-dali-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "mg-livsandton-ff-bunnies": {
+   "project": "2wo Bunnies Live Tonight",
+   "title": "2wo Bunnies Live Tonight",
+   "detail": "LIV Sandton \u00c2\u00b7 FR3QNCY Fridays, 30 January",
+   "sections": [
+    "Motion graphics"
+   ],
+   "onSite": true,
+   "file": "mg-livsandton-ff-bunnies.mp4",
+   "poster": "bts/mg-livsandton-ff-bunnies.jpg",
+   "preview": "bts/mg-livsandton-ff-bunnies-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "mg-livsandton-ff-foca": {
+   "project": "Focalistic",
+   "title": "Focalistic",
+   "detail": "LIV Sandton \u00c2\u00b7 FR3QNCY Fridays, 6 February",
+   "sections": [
+    "Motion graphics"
+   ],
+   "onSite": true,
+   "file": "mg-livsandton-ff-foca.mp4",
+   "poster": "bts/mg-livsandton-ff-foca.jpg",
+   "preview": "bts/mg-livsandton-ff-foca-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "mg-livsandton-ff-kabza": {
+   "project": "Kabza De Small",
+   "title": "Kabza De Small",
+   "detail": "LIV Sandton \u00c2\u00b7 FR3QNCY Fridays, 6 February",
+   "sections": [
+    "Motion graphics"
+   ],
+   "onSite": true,
+   "file": "mg-livsandton-ff-kabza.mp4",
+   "poster": "bts/mg-livsandton-ff-kabza.jpg",
+   "preview": "bts/mg-livsandton-ff-kabza-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "dj-shishiliza": {
+   "project": "Shishiliza",
+   "title": "Shishiliza",
+   "detail": "LIV Sandton \u00c2\u00b7 High Society, welcome screen",
+   "sections": [
+    "DJ screens"
+   ],
+   "onSite": true,
+   "file": "dj-shishiliza.mp4",
+   "poster": "bts/dj-shishiliza.jpg",
+   "preview": "bts/dj-shishiliza-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "vdj-goldmax": {
+   "project": "Goldmax",
+   "title": "Goldmax",
+   "detail": "CE\u00c2\u00b7LA\u00c2\u00b7VI Sandton \u00c2\u00b7 On the Decks, DJ booth screen",
+   "sections": [
+    "Vertical DJ screens"
+   ],
+   "onSite": true,
+   "file": "vdj-goldmax.mp4",
+   "poster": "bts/vdj-goldmax.jpg",
+   "preview": "bts/vdj-goldmax-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "vdj-thuli": {
+   "project": "Thuli P",
+   "title": "Thuli P",
+   "detail": "CE\u00c2\u00b7LA\u00c2\u00b7VI Sandton \u00c2\u00b7 Sounds by Thuli P, Saturday",
+   "sections": [
+    "Vertical DJ screens"
+   ],
+   "onSite": true,
+   "file": "vdj-thuli.mp4",
+   "poster": "bts/vdj-thuli.jpg",
+   "preview": "bts/vdj-thuli-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "vdj-darque": {
+   "project": "Darque",
+   "title": "Darque",
+   "detail": "CE\u00c2\u00b7LA\u00c2\u00b7VI Sandton \u00c2\u00b7 On the Decks, September",
+   "sections": [
+    "Vertical DJ screens"
+   ],
+   "onSite": true,
+   "file": "vdj-darque.mp4",
+   "poster": "bts/vdj-darque.jpg",
+   "preview": "bts/vdj-darque-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "dj-nkosazana": {
+   "project": "Nkosazana Daughter",
+   "title": "Nkosazana Daughter",
+   "detail": "LIV Sandton \u00c2\u00b7 Superstar Saturdays, live performance",
+   "sections": [
+    "DJ screens"
+   ],
+   "onSite": true,
+   "file": "dj-nkosazana.mp4",
+   "poster": "bts/dj-nkosazana.jpg",
+   "preview": "bts/dj-nkosazana-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "dj-china": {
+   "project": "China Charmeleon",
+   "title": "China Charmeleon",
+   "detail": "Maracan\u00c3\u00a3 Sandton \u00c2\u00b7 11:11, sounds by China Charmeleon",
+   "sections": [
+    "DJ screens"
+   ],
+   "onSite": true,
+   "file": "dj-china.mp4",
+   "poster": "bts/dj-china.jpg",
+   "preview": "bts/dj-china-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "dj-living-dream": {
+   "project": "Living the Dream",
+   "title": "Living the Dream",
+   "detail": "Pharoah Auto Investments \u00c2\u00b7 Back to Black, 27 June, DBN Gogo, Funky Qla, Banques & Venom",
+   "sections": [
+    "DJ screens"
+   ],
+   "onSite": true,
+   "file": "dj-living-dream.mp4",
+   "poster": "bts/dj-living-dream.jpg",
+   "preview": "bts/dj-living-dream-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "mg-livsandton-gatsby": {
+   "project": "The Great Gatsby",
+   "title": "The Great Gatsby",
+   "detail": "LIV Sandton \u00c2\u00b7 Famo's birthday teaser",
+   "sections": [
+    "Motion graphics"
+   ],
+   "onSite": true,
+   "file": "mg-livsandton-gatsby.mp4",
+   "poster": "bts/mg-livsandton-gatsby.jpg",
+   "preview": "bts/mg-livsandton-gatsby-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "mg-livsandton-hs-jun12": {
+   "project": "High Society",
+   "title": "High Society",
+   "detail": "LIV Sandton \u00c2\u00b7 12 June, Don Ayo & Uncool MC",
+   "sections": [
+    "Motion graphics"
+   ],
+   "onSite": true,
+   "file": "mg-livsandton-hs-jun12.mp4",
+   "poster": "bts/mg-livsandton-hs-jun12.jpg",
+   "preview": "bts/mg-livsandton-hs-jun12-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "mg-livsandton-hs-jun19": {
+   "project": "High Society",
+   "title": "High Society",
+   "detail": "LIV Sandton \u00c2\u00b7 19 June, DJ Maphorisa",
+   "sections": [
+    "Motion graphics"
+   ],
+   "onSite": true,
+   "file": "mg-livsandton-hs-jun19.mp4",
+   "poster": "bts/mg-livsandton-hs-jun19.jpg",
+   "preview": "bts/mg-livsandton-hs-jun19-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "mg-room130-marbella": {
+   "project": "A Day in Marbella",
+   "title": "A Day in Marbella",
+   "detail": "Room 130 \u00c2\u00b7 Bobby Blanco's birthday",
+   "sections": [
+    "Motion graphics"
+   ],
+   "onSite": true,
+   "file": "mg-room130-marbella.mp4",
+   "poster": "bts/mg-room130-marbella.jpg",
+   "preview": "bts/mg-room130-marbella-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "mg-room130-mogodu": {
+   "project": "Mogodu Monday",
+   "title": "Mogodu Monday",
+   "detail": "Room 130 \u00c2\u00b7 Mogodu Loves Monday",
+   "sections": [
+    "Motion graphics"
+   ],
+   "onSite": true,
+   "file": "mg-room130-mogodu.mp4",
+   "poster": "bts/mg-room130-mogodu.jpg",
+   "preview": "bts/mg-room130-mogodu-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "mg-player-profile": {
+   "project": "mg-player-profile",
+   "title": "",
+   "detail": "",
+   "sections": [],
+   "onSite": false,
+   "file": "mg-player-profile.mp4",
+   "poster": "bts/mg-player-profile.jpg",
+   "preview": "bts/mg-player-profile-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "mg-summer-daze-promo": {
+   "project": "Perfect Summer Daze",
+   "title": "Perfect Summer Daze",
+   "detail": "Official promo",
+   "sections": [
+    "Motion graphics"
+   ],
+   "onSite": true,
+   "file": "mg-summer-daze-promo.mp4",
+   "poster": "bts/mg-summer-daze-promo.jpg",
+   "preview": "bts/mg-summer-daze-promo-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "mg-summer-daze-3days": {
+   "project": "Perfect Summer Daze",
+   "title": "Perfect Summer Daze",
+   "detail": "3 days to go countdown",
+   "sections": [
+    "Motion graphics"
+   ],
+   "onSite": true,
+   "file": "mg-summer-daze-3days.mp4",
+   "poster": "bts/mg-summer-daze-3days.jpg",
+   "preview": "bts/mg-summer-daze-3days-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "mg-may-edition": {
+   "project": "The May Edition",
+   "title": "The May Edition",
+   "detail": "Music networking event promo",
+   "sections": [
+    "Motion graphics"
+   ],
+   "onSite": true,
+   "file": "mg-may-edition.mp4",
+   "poster": "bts/mg-may-edition.jpg",
+   "preview": "bts/mg-may-edition-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "mg-livonbree-winter": {
+   "project": "Curated Sundays: Winter Sessions",
+   "title": "Curated Sundays: Winter Sessions",
+   "detail": "LIV on Bree \u00c2\u00b7 22 June, Stella Artois",
+   "sections": [
+    "Motion graphics"
+   ],
+   "onSite": true,
+   "file": "mg-livonbree-winter.mp4",
+   "poster": "bts/mg-livonbree-winter.jpg",
+   "preview": "bts/mg-livonbree-winter-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "mg-livsandton-superstar-jun28": {
+   "project": "Superstar Saturday",
+   "title": "Superstar Saturday",
+   "detail": "LIV Sandton \u00c2\u00b7 28 June, Durban takeover",
+   "sections": [
+    "Motion graphics"
+   ],
+   "onSite": true,
+   "file": "mg-livsandton-superstar-jun28.mp4",
+   "poster": "bts/mg-livsandton-superstar-jun28.jpg",
+   "preview": "bts/mg-livsandton-superstar-jun28-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "mg-livsandton-superstar-may31": {
+   "project": "Superstar Saturday",
+   "title": "Superstar Saturday",
+   "detail": "LIV Sandton \u00c2\u00b7 31 May, Leehleza, Ezra & Linda Mobeketsi",
+   "sections": [
+    "Motion graphics"
+   ],
+   "onSite": true,
+   "file": "mg-livsandton-superstar-may31.mp4",
+   "poster": "bts/mg-livsandton-superstar-may31.jpg",
+   "preview": "bts/mg-livsandton-superstar-may31-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "mg-livsandton-gatsby-2": {
+   "project": "The Great Gatsby: Save the Date",
+   "title": "The Great Gatsby: Save the Date",
+   "detail": "LIV Sandton \u00c2\u00b7 Famo's birthday, second teaser",
+   "sections": [
+    "Motion graphics"
+   ],
+   "onSite": true,
+   "file": "mg-livsandton-gatsby-2.mp4",
+   "poster": "bts/mg-livsandton-gatsby-2.jpg",
+   "preview": "bts/mg-livsandton-gatsby-2-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "mg-livsandton-saga-jul": {
+   "project": "Sunday Saga",
+   "title": "Sunday Saga",
+   "detail": "LIV Sandton \u00c2\u00b7 5 July line-up",
+   "sections": [
+    "Motion graphics"
+   ],
+   "onSite": true,
+   "file": "mg-livsandton-saga-jul.mp4",
+   "poster": "bts/mg-livsandton-saga-jul.jpg",
+   "preview": "bts/mg-livsandton-saga-jul-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "mg-livsandton-3rd-bday": {
+   "project": "LIV 3rd Birthday",
+   "title": "LIV 3rd Birthday",
+   "detail": "LIV Sandton \u00c2\u00b7 3rd birthday recap",
+   "sections": [
+    "Motion graphics"
+   ],
+   "onSite": true,
+   "file": "mg-livsandton-3rd-bday.mp4",
+   "poster": "bts/mg-livsandton-3rd-bday.jpg",
+   "preview": "bts/mg-livsandton-3rd-bday-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "tr-livgreen": {
+   "project": "LIV Green Hospitality",
+   "title": "LIV Green Hospitality",
+   "detail": "Brand trailer \u00c2\u00b7 curators of nightlife",
+   "sections": [
+    "Trailers"
+   ],
+   "onSite": true,
+   "file": "tr-livgreen.mp4",
+   "poster": "bts/tr-livgreen.jpg",
+   "preview": "bts/tr-livgreen-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "vdj-amber-nomfundo": {
+   "project": "Nomfundo",
+   "title": "Nomfundo",
+   "detail": "M-BER by LIV \u00c2\u00b7 Sounds by Nomfundo",
+   "sections": [
+    "Vertical DJ screens"
+   ],
+   "onSite": true,
+   "file": "vdj-amber-nomfundo.mp4",
+   "poster": "bts/vdj-amber-nomfundo.jpg",
+   "preview": "bts/vdj-amber-nomfundo-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "vdj-amber-stakev": {
+   "project": "Stakev",
+   "title": "Stakev",
+   "detail": "M-BER by LIV \u00c2\u00b7 Sounds by Stakev",
+   "sections": [
+    "Vertical DJ screens"
+   ],
+   "onSite": true,
+   "file": "vdj-amber-stakev.mp4",
+   "poster": "bts/vdj-amber-stakev.jpg",
+   "preview": "bts/vdj-amber-stakev-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "vdj-amber-abidoza": {
+   "project": "vdj-amber-abidoza",
+   "title": "",
+   "detail": "",
+   "sections": [],
+   "onSite": false,
+   "file": "vdj-amber-abidoza.mp4",
+   "poster": "bts/vdj-amber-abidoza.jpg",
+   "preview": "bts/vdj-amber-abidoza-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "tr-nandz-celavi": {
+   "project": "Living with Bigg Nandz",
+   "title": "Living with Bigg Nandz",
+   "detail": "CE\u00c2\u00b7LA\u00c2\u00b7VI dinner episode trailer",
+   "sections": [
+    "Living with Bigg Nandz"
+   ],
+   "onSite": true,
+   "file": "tr-nandz-celavi.mp4",
+   "poster": "bts/tr-nandz-celavi.jpg",
+   "preview": "bts/tr-nandz-celavi-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "tr-nandz-cook1": {
+   "project": "Living with Bigg Nandz",
+   "title": "Living with Bigg Nandz",
+   "detail": "In the kitchen \u00c2\u00b7 clip",
+   "sections": [
+    "Living with Bigg Nandz"
+   ],
+   "onSite": true,
+   "file": "tr-nandz-cook1.mp4",
+   "poster": "bts/tr-nandz-cook1.jpg",
+   "preview": "bts/tr-nandz-cook1-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "tr-nandz-cook2": {
+   "project": "Living with Bigg Nandz",
+   "title": "Living with Bigg Nandz",
+   "detail": "Brunch spread \u00c2\u00b7 clip",
+   "sections": [
+    "Home banner",
+    "Living with Bigg Nandz"
+   ],
+   "onSite": true,
+   "file": "tr-nandz-cook2.mp4",
+   "poster": "bts/tr-nandz-cook2.jpg",
+   "preview": "bts/tr-nandz-cook2-loop.mp4",
+   "local": true,
+   "streamId": ""
+  },
+  "tr-jazziq": {
+   "project": "JazziQ and Friends",
+   "title": "JazziQ and Friends",
+   "detail": "Episode trailer",
+   "sections": [
+    "Grade slider",
+    "Home banner",
+    "Trailers"
+   ],
+   "onSite": true,
+   "file": "tr-jazziq.mp4",
+   "poster": "bts/tr-jazziq.jpg",
+   "preview": "bts/tr-jazziq-loop.mp4",
+   "local": true,
+   "streamId": ""
+  },
+  "tr-nandz-l6": {
+   "project": "Living with Bigg Nandz",
+   "title": "Living with Bigg Nandz",
+   "detail": "At home \u00c2\u00b7 clip",
+   "sections": [
+    "Living with Bigg Nandz"
+   ],
+   "onSite": true,
+   "file": "tr-nandz-l6.mp4",
+   "poster": "bts/tr-nandz-l6.jpg",
+   "preview": "bts/tr-nandz-l6-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "tr-nandz-l7": {
+   "project": "Living with Bigg Nandz",
+   "title": "Living with Bigg Nandz",
+   "detail": "Night out \u00c2\u00b7 clip",
+   "sections": [
+    "Living with Bigg Nandz"
+   ],
+   "onSite": true,
+   "file": "tr-nandz-l7.mp4",
+   "poster": "bts/tr-nandz-l7.jpg",
+   "preview": "bts/tr-nandz-l7-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "tr-nandz-l8": {
+   "project": "Living with Bigg Nandz",
+   "title": "Living with Bigg Nandz",
+   "detail": "Pulling up \u00c2\u00b7 clip",
+   "sections": [
+    "Living with Bigg Nandz"
+   ],
+   "onSite": true,
+   "file": "tr-nandz-l8.mp4",
+   "poster": "bts/tr-nandz-l8.jpg",
+   "preview": "bts/tr-nandz-l8-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "am-legacy-1": {
+   "project": "am-legacy-1",
+   "title": "",
+   "detail": "",
+   "sections": [],
+   "onSite": false,
+   "file": "am-legacy-1.mp4",
+   "poster": "bts/am-legacy-1.jpg",
+   "preview": "bts/am-legacy-1-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "am-legacy-2": {
+   "project": "The Legacy Collective",
+   "title": "The Legacy Collective",
+   "detail": "Aftermovie \u00c2\u00b7 by Khanyisa M",
+   "sections": [
+    "Aftermovies"
+   ],
+   "onSite": true,
+   "file": "am-legacy-2.mp4",
+   "poster": "bts/am-legacy-2.jpg",
+   "preview": "bts/am-legacy-2-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "am-legacy-3": {
+   "project": "The Legacy Collective",
+   "title": "The Legacy Collective",
+   "detail": "Aftermovie \u00c2\u00b7 by Khanyisa M",
+   "sections": [
+    "Aftermovies"
+   ],
+   "onSite": true,
+   "file": "am-legacy-3.mp4",
+   "poster": "bts/am-legacy-3.jpg",
+   "preview": "bts/am-legacy-3-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "mg-livsandton-living-dream": {
+   "project": "Living the Dream",
+   "title": "Living the Dream",
+   "detail": "LIV Sandton \u00c2\u00b7 Living the Dream, Back to Black promo",
+   "sections": [
+    "Motion graphics"
+   ],
+   "onSite": true,
+   "file": "mg-livsandton-living-dream.mp4",
+   "poster": "bts/mg-livsandton-living-dream.jpg",
+   "preview": "bts/mg-livsandton-living-dream-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "tr-rated-r": {
+   "project": "Rated R",
+   "title": "Rated R",
+   "detail": "Podcast trailer",
+   "sections": [
+    "Trailers"
+   ],
+   "onSite": true,
+   "file": "tr-rated-r.mp4",
+   "poster": "bts/tr-rated-r.jpg",
+   "preview": "bts/tr-rated-r-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "tr-legacy-khanyisa": {
+   "project": "The Legacy Collective",
+   "title": "The Legacy Collective",
+   "detail": "Episode trailer \u00c2\u00b7 with Khanyisa",
+   "sections": [
+    "Trailers"
+   ],
+   "onSite": true,
+   "file": "tr-legacy-khanyisa.mp4",
+   "poster": "bts/tr-legacy-khanyisa.jpg",
+   "preview": "bts/tr-legacy-khanyisa-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "am-legacy-4": {
+   "project": "The Legacy Collective",
+   "title": "The Legacy Collective",
+   "detail": "Aftermovie \u00c2\u00b7 by Khanyisa M",
+   "sections": [
+    "Aftermovies"
+   ],
+   "onSite": true,
+   "file": "am-legacy-4.mp4",
+   "poster": "bts/am-legacy-4.jpg",
+   "preview": "bts/am-legacy-4-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "snip-podcast-3": {
+   "project": "In the Cut",
+   "title": "In the Cut",
+   "detail": "Podcast clip",
+   "sections": [
+    "Podcast snippets"
+   ],
+   "onSite": true,
+   "file": "snip-podcast-3.mp4",
+   "poster": "bts/snip-podcast-3.jpg",
+   "preview": "bts/snip-podcast-3-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "snip-rated-r-2": {
+   "project": "How We Liv Podcast",
+   "title": "How We Liv Podcast",
+   "detail": "Podcast clip",
+   "sections": [
+    "Podcast snippets"
+   ],
+   "onSite": true,
+   "file": "snip-rated-r-2.mp4",
+   "poster": "bts/snip-rated-r-2.jpg",
+   "preview": "bts/snip-rated-r-2-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "mg-story-yalla": {
+   "project": "Y'alla",
+   "title": "Y'alla",
+   "detail": "Story \u00c2\u00b7 4K portrait animation",
+   "sections": [
+    "Motion graphics"
+   ],
+   "onSite": true,
+   "file": "mg-story-yalla.mp4",
+   "poster": "bts/mg-story-yalla.jpg",
+   "preview": "bts/mg-story-yalla-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "mg-story-therapy": {
+   "project": "Thursday Therapy",
+   "title": "Thursday Therapy",
+   "detail": "Story \u00c2\u00b7 Thursday Therapy, 5 November",
+   "sections": [
+    "Motion graphics"
+   ],
+   "onSite": true,
+   "file": "mg-story-therapy.mp4",
+   "poster": "bts/mg-story-therapy.jpg",
+   "preview": "bts/mg-story-therapy-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "set-2": {
+   "project": "Bigg Nandz Beats",
+   "title": "Bigg Nandz Beats",
+   "detail": "DJ set",
+   "sections": [
+    "DJ sets"
+   ],
+   "onSite": true,
+   "file": "set-2.mp4",
+   "poster": "bts/set-2.jpg",
+   "preview": "bts/set-2-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "set-3": {
+   "project": "Bigg Nandz Beats",
+   "title": "Bigg Nandz Beats",
+   "detail": "DJ set",
+   "sections": [
+    "DJ sets"
+   ],
+   "onSite": true,
+   "file": "set-3.mp4",
+   "poster": "bts/set-3.jpg",
+   "preview": "bts/set-3-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "set-4": {
+   "project": "Vaal River Sundays",
+   "title": "Vaal River Sundays",
+   "detail": "Live DJ set",
+   "sections": [
+    "DJ sets"
+   ],
+   "onSite": true,
+   "file": "set-4.mp4",
+   "poster": "bts/set-4.jpg",
+   "preview": "bts/set-4-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "set-5": {
+   "project": "Vaal River Sundays",
+   "title": "Vaal River Sundays",
+   "detail": "Live DJ set",
+   "sections": [
+    "DJ sets"
+   ],
+   "onSite": true,
+   "file": "set-5.mp4",
+   "poster": "bts/set-5.jpg",
+   "preview": "bts/set-5-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "set-6": {
+   "project": "Vaal River Sundays",
+   "title": "Vaal River Sundays",
+   "detail": "Live DJ set",
+   "sections": [
+    "DJ sets",
+    "Home banner"
+   ],
+   "onSite": true,
+   "file": "set-6.mp4",
+   "poster": "bts/set-6.jpg",
+   "preview": "bts/set-6-loop.mp4",
+   "local": true,
+   "streamId": ""
+  },
+  "snip-show-3": {
+   "project": "Abantu Abadala",
+   "title": "Abantu Abadala",
+   "detail": "Show clip",
+   "sections": [
+    "Podcast snippets"
+   ],
+   "onSite": true,
+   "file": "snip-show-3.mp4",
+   "poster": "bts/snip-show-3.jpg",
+   "preview": "bts/snip-show-3-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "snip-show-1": {
+   "project": "Don't Be Surprised",
+   "title": "Don't Be Surprised",
+   "detail": "Podcast clip",
+   "sections": [
+    "Podcast snippets"
+   ],
+   "onSite": true,
+   "file": "snip-show-1.mp4",
+   "poster": "bts/snip-show-1.jpg",
+   "preview": "bts/snip-show-1-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "snip-show-6": {
+   "project": "Sex and Stuff",
+   "title": "Sex and Stuff",
+   "detail": "with Dineo",
+   "sections": [
+    "Podcast snippets"
+   ],
+   "onSite": true,
+   "file": "snip-show-6.mp4",
+   "poster": "bts/snip-show-6.jpg",
+   "preview": "bts/snip-show-6-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "vdj-amber-amo": {
+   "project": "Amo Africa",
+   "title": "Amo Africa",
+   "detail": "M-BER by LIV \u00c2\u00b7 Rhythm & Glow, starring Amo Africa",
+   "sections": [
+    "Vertical DJ screens"
+   ],
+   "onSite": true,
+   "file": "vdj-amber-amo.mp4",
+   "poster": "bts/vdj-amber-amo.jpg",
+   "preview": "bts/vdj-amber-amo-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "vdj-amber-banques": {
+   "project": "Banques",
+   "title": "Banques",
+   "detail": "M-BER by LIV \u00c2\u00b7 Secret Society, starring Banques",
+   "sections": [
+    "Vertical DJ screens"
+   ],
+   "onSite": true,
+   "file": "vdj-amber-banques.mp4",
+   "poster": "bts/vdj-amber-banques.jpg",
+   "preview": "bts/vdj-amber-banques-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "snip-show-13": {
+   "project": "Against the Wall",
+   "title": "Against the Wall",
+   "detail": "Show clip",
+   "sections": [
+    "Podcast snippets"
+   ],
+   "onSite": true,
+   "file": "snip-show-13.mp4",
+   "poster": "bts/snip-show-13.jpg",
+   "preview": "bts/snip-show-13-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "vdj-amber-ricky": {
+   "project": "Ricky Lenyora",
+   "title": "Ricky Lenyora",
+   "detail": "M-BER by LIV \u00c2\u00b7 Ambassador, M-BERSSY",
+   "sections": [
+    "Vertical DJ screens"
+   ],
+   "onSite": true,
+   "file": "vdj-amber-ricky.mp4",
+   "poster": "bts/vdj-amber-ricky.jpg",
+   "preview": "bts/vdj-amber-ricky-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "snip-show-4": {
+   "project": "Tresemm\u00c3\u00a9",
+   "title": "Tresemm\u00c3\u00a9",
+   "detail": "Show clip",
+   "sections": [
+    "Podcast snippets"
+   ],
+   "onSite": true,
+   "file": "snip-show-4.mp4",
+   "poster": "bts/snip-show-4.jpg",
+   "preview": "bts/snip-show-4-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "snip-show-10": {
+   "project": "Abantu Abadala",
+   "title": "Abantu Abadala",
+   "detail": "Show clip",
+   "sections": [
+    "Podcast snippets"
+   ],
+   "onSite": true,
+   "file": "snip-show-10.mp4",
+   "poster": "bts/snip-show-10.jpg",
+   "preview": "bts/snip-show-10-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "snip-show-9": {
+   "project": "The Pope of Pop Culture",
+   "title": "The Pope of Pop Culture",
+   "detail": "with Musa Khawula",
+   "sections": [
+    "Podcast snippets"
+   ],
+   "onSite": true,
+   "file": "snip-show-9.mp4",
+   "poster": "bts/snip-show-9.jpg",
+   "preview": "bts/snip-show-9-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "bg-macg": {
+   "project": "Podcast and Chill with MacG",
+   "title": "Podcast and Chill with MacG (hero)",
+   "detail": "",
+   "sections": [
+    "Home banner"
+   ],
+   "onSite": true,
+   "file": "bg-macg.mp4",
+   "poster": "bts/bg-macg.jpg",
+   "preview": null,
+   "local": true,
+   "streamId": ""
+  },
+  "bg-tlc": {
+   "project": "The Love Clinic",
+   "title": "The Love Clinic (hero)",
+   "detail": "",
+   "sections": [
+    "Grade slider",
+    "Home banner"
+   ],
+   "onSite": true,
+   "file": "bg-tlc.mp4",
+   "poster": "bts/bg-tlc.jpg",
+   "preview": null,
+   "local": true,
+   "streamId": ""
+  },
+  "bg-legacy": {
+   "project": "The Legacy Collective",
+   "title": "The Legacy Collective (hero)",
+   "detail": "",
+   "sections": [
+    "Grade slider",
+    "Home banner"
+   ],
+   "onSite": true,
+   "file": "bg-legacy.mp4",
+   "poster": "bts/bg-legacy.jpg",
+   "preview": null,
+   "local": true,
+   "streamId": ""
+  },
+  "dj-money-talks": {
+   "project": "Shaun 101",
+   "title": "Shaun 101",
+   "detail": "LIV Sandton \u00c2\u00b7 Money Talks after party, Black Excellence edition",
+   "sections": [
+    "DJ screens"
+   ],
+   "onSite": true,
+   "file": "dj-money-talks.mp4",
+   "poster": "bts/dj-money-talks.jpg",
+   "preview": "bts/dj-money-talks-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "am-legacy-5": {
+   "project": "The Legacy Collective",
+   "title": "The Legacy Collective",
+   "detail": "Aftermovie \u00c2\u00b7 by Khanyisa M",
+   "sections": [
+    "Aftermovies"
+   ],
+   "onSite": true,
+   "file": "am-legacy-5.mp4",
+   "poster": "bts/am-legacy-5.jpg",
+   "preview": "bts/am-legacy-5-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "am-legacy-6": {
+   "project": "The Legacy Collective",
+   "title": "The Legacy Collective",
+   "detail": "Aftermovie \u00c2\u00b7 by Khanyisa M",
+   "sections": [
+    "Aftermovies"
+   ],
+   "onSite": true,
+   "file": "am-legacy-6.mp4",
+   "poster": "bts/am-legacy-6.jpg",
+   "preview": "bts/am-legacy-6-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "am-legacy-7": {
+   "project": "The Legacy Collective",
+   "title": "The Legacy Collective",
+   "detail": "Aftermovie \u00c2\u00b7 by Khanyisa M",
+   "sections": [
+    "Aftermovies"
+   ],
+   "onSite": true,
+   "file": "am-legacy-7.mp4",
+   "poster": "bts/am-legacy-7.jpg",
+   "preview": "bts/am-legacy-7-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "am-legacy-8": {
+   "project": "am-legacy-8",
+   "title": "",
+   "detail": "",
+   "sections": [],
+   "onSite": false,
+   "file": "am-legacy-8.mp4",
+   "poster": "bts/am-legacy-8.jpg",
+   "preview": "bts/am-legacy-8-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "snip-podcast-4": {
+   "project": "JazziQ and Friends",
+   "title": "JazziQ and Friends",
+   "detail": "Season 2",
+   "sections": [
+    "Podcast snippets"
+   ],
+   "onSite": true,
+   "file": "snip-podcast-4.mp4",
+   "poster": "bts/snip-podcast-4.jpg",
+   "preview": "bts/snip-podcast-4-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "snip-podcast-6": {
+   "project": "The Legacy Collective",
+   "title": "The Legacy Collective",
+   "detail": "with Khanyisa M",
+   "sections": [
+    "Podcast snippets"
+   ],
+   "onSite": true,
+   "file": "snip-podcast-6.mp4",
+   "poster": "bts/snip-podcast-6.jpg",
+   "preview": "bts/snip-podcast-6-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "snip-rated-r-1": {
+   "project": "The Rated R Podcast",
+   "title": "The Rated R Podcast",
+   "detail": "Podcast clip",
+   "sections": [
+    "Podcast snippets"
+   ],
+   "onSite": true,
+   "file": "snip-rated-r-1.mp4",
+   "poster": "bts/snip-rated-r-1.jpg",
+   "preview": "bts/snip-rated-r-1-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "bg-ratedr": {
+   "project": "The Rated R Podcast: Dawn Thandeka King",
+   "title": "The Rated R Podcast: Dawn Thandeka King (hero)",
+   "detail": "",
+   "sections": [
+    "Home banner"
+   ],
+   "onSite": true,
+   "file": "bg-ratedr.mp4",
+   "poster": "bts/bg-ratedr.jpg",
+   "preview": null,
+   "local": true,
+   "streamId": ""
+  },
+  "bg-musa": {
+   "project": "Musa Khawula: The Pope of Pop Culture",
+   "title": "Musa Khawula: The Pope of Pop Culture (hero)",
+   "detail": "",
+   "sections": [
+    "Home banner"
+   ],
+   "onSite": true,
+   "file": "bg-musa.mp4",
+   "poster": "bts/bg-musa.jpg",
+   "preview": null,
+   "local": true,
+   "streamId": ""
+  },
+  "bg-opend": {
+   "project": "Open'd with Dineo Ranaka",
+   "title": "Open'd with Dineo Ranaka (hero)",
+   "detail": "",
+   "sections": [
+    "Home banner"
+   ],
+   "onSite": true,
+   "file": "bg-opend.mp4",
+   "poster": "bts/bg-opend.jpg",
+   "preview": null,
+   "local": true,
+   "streamId": ""
+  },
+  "bg-celeb": {
+   "project": "Podcast and Chill: Celebrity Edition",
+   "title": "Podcast and Chill: Celebrity Edition (hero)",
+   "detail": "",
+   "sections": [
+    "Home banner"
+   ],
+   "onSite": true,
+   "file": "bg-celeb.mp4",
+   "poster": "bts/bg-celeb.jpg",
+   "preview": null,
+   "local": true,
+   "streamId": ""
+  },
+  "tr-khanyisa-final": {
+   "project": "Khanyisa M",
+   "title": "Khanyisa M",
+   "detail": "Feature trailer",
+   "sections": [
+    "Trailers"
+   ],
+   "onSite": true,
+   "file": "tr-khanyisa-final.mp4",
+   "poster": "bts/tr-khanyisa-final.jpg",
+   "preview": "bts/tr-khanyisa-final-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "tr-khanyisa-jetour": {
+   "project": "Khanyisa M \u00c3\u2014 Jetour",
+   "title": "Khanyisa M \u00c3\u2014 Jetour",
+   "detail": "Brand trailer",
+   "sections": [
+    "Trailers"
+   ],
+   "onSite": true,
+   "file": "tr-khanyisa-jetour.mp4",
+   "poster": "bts/tr-khanyisa-jetour.jpg",
+   "preview": "bts/tr-khanyisa-jetour-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "tr-khanyisa-table": {
+   "project": "Khanyisa M",
+   "title": "Khanyisa M",
+   "detail": "The long table \u00c2\u00b7 trailer",
+   "sections": [
+    "Trailers"
+   ],
+   "onSite": true,
+   "file": "tr-khanyisa-table.mp4",
+   "poster": "bts/tr-khanyisa-table.jpg",
+   "preview": "bts/tr-khanyisa-table-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "tr-khanyisa-vid3": {
+   "project": "Khanyisa M",
+   "title": "Khanyisa M",
+   "detail": "Trailer 3",
+   "sections": [
+    "Trailers"
+   ],
+   "onSite": true,
+   "file": "tr-khanyisa-vid3.mp4",
+   "poster": "bts/tr-khanyisa-vid3.jpg",
+   "preview": "bts/tr-khanyisa-vid3-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "mg-supercar": {
+   "project": "Supercar",
+   "title": "Supercar",
+   "detail": "Car reel motion promo",
+   "sections": [
+    "Motion graphics"
+   ],
+   "onSite": true,
+   "file": "mg-supercar.mp4",
+   "poster": "bts/mg-supercar.jpg",
+   "preview": "bts/mg-supercar-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "snip-show-2": {
+   "project": "The Pope of Pop Culture",
+   "title": "The Pope of Pop Culture",
+   "detail": "with Musa Khawula",
+   "sections": [
+    "Podcast snippets"
+   ],
+   "onSite": true,
+   "file": "snip-show-2.mp4",
+   "poster": "bts/snip-show-2.jpg",
+   "preview": "bts/snip-show-2-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "snip-show-14": {
+   "project": "Sex and Stuff",
+   "title": "Sex and Stuff",
+   "detail": "with Dineo",
+   "sections": [
+    "Podcast snippets"
+   ],
+   "onSite": true,
+   "file": "snip-show-14.mp4",
+   "poster": "bts/snip-show-14.jpg",
+   "preview": "bts/snip-show-14-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "snip-show-7": {
+   "project": "Against the Wall",
+   "title": "Against the Wall",
+   "detail": "Show clip",
+   "sections": [
+    "Podcast snippets"
+   ],
+   "onSite": true,
+   "file": "snip-show-7.mp4",
+   "poster": "bts/snip-show-7.jpg",
+   "preview": "bts/snip-show-7-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "snip-show-12": {
+   "project": "Against the Wall",
+   "title": "Against the Wall",
+   "detail": "Show clip",
+   "sections": [
+    "Podcast snippets"
+   ],
+   "onSite": true,
+   "file": "snip-show-12.mp4",
+   "poster": "bts/snip-show-12.jpg",
+   "preview": "bts/snip-show-12-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "snip-show-11": {
+   "project": "The Assembly with Gugu",
+   "title": "The Assembly with Gugu",
+   "detail": "Podcast clip",
+   "sections": [
+    "Podcast snippets"
+   ],
+   "onSite": true,
+   "file": "snip-show-11.mp4",
+   "poster": "bts/snip-show-11.jpg",
+   "preview": "bts/snip-show-11-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "snip-rated-r-7": {
+   "project": "The Rated R Podcast",
+   "title": "The Rated R Podcast",
+   "detail": "Podcast clip",
+   "sections": [
+    "Podcast snippets"
+   ],
+   "onSite": true,
+   "file": "snip-rated-r-7.mp4",
+   "poster": "bts/snip-rated-r-7.jpg",
+   "preview": "bts/snip-rated-r-7-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "snip-show-5": {
+   "project": "Against the Wall",
+   "title": "Against the Wall",
+   "detail": "Show clip",
+   "sections": [
+    "Podcast snippets"
+   ],
+   "onSite": true,
+   "file": "snip-show-5.mp4",
+   "poster": "bts/snip-show-5.jpg",
+   "preview": "bts/snip-show-5-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "snip-show-8": {
+   "project": "The Assembly with Gugu",
+   "title": "The Assembly with Gugu",
+   "detail": "Podcast clip",
+   "sections": [
+    "Podcast snippets"
+   ],
+   "onSite": true,
+   "file": "snip-show-8.mp4",
+   "poster": "bts/snip-show-8.jpg",
+   "preview": "bts/snip-show-8-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "bts-hwl-2": {
+   "project": "How We Liv",
+   "title": "How We Liv",
+   "detail": "Behind the scenes \u00c2\u00b7 1800 Tequila & Glenfiddich",
+   "sections": [
+    "Behind the scenes"
+   ],
+   "onSite": true,
+   "file": "bts-hwl-2.mp4",
+   "poster": "bts/bts-hwl-2.jpg",
+   "preview": "bts/bts-hwl-2-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "bts-hwl-3": {
+   "project": "How We Liv",
+   "title": "How We Liv",
+   "detail": "Behind the scenes",
+   "sections": [
+    "Behind the scenes"
+   ],
+   "onSite": true,
+   "file": "bts-hwl-3.mp4",
+   "poster": "bts/bts-hwl-3.jpg",
+   "preview": "bts/bts-hwl-3-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "bts-hwl-4": {
+   "project": "How We Liv",
+   "title": "How We Liv",
+   "detail": "Behind the scenes",
+   "sections": [
+    "Behind the scenes"
+   ],
+   "onSite": true,
+   "file": "bts-hwl-4.mp4",
+   "poster": "bts/bts-hwl-4.jpg",
+   "preview": "bts/bts-hwl-4-loop.mp4",
+   "local": false,
+   "streamId": ""
+  },
+  "am-legacy-9": {
+   "project": "The Legacy Collective",
+   "title": "The Legacy Collective",
+   "detail": "Behind the scenes \u00c2\u00b7 with Khanyisa M",
+   "sections": [
+    "Aftermovies"
+   ],
+   "onSite": true,
+   "file": "am-legacy-9.mp4",
+   "poster": "bts/am-legacy-9.jpg",
+   "preview": "bts/am-legacy-9-loop.mp4",
+   "local": false,
+   "streamId": ""
+  }
+ }
+}
