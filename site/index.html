@@ -1514,8 +1514,13 @@ const MGV = (() => {
   let hls = null, hlsLib = null;
   const loadHls = () => hlsLib || (hlsLib = new Promise((ok, no) => {
     if (window.Hls) return ok(window.Hls);
-    const sc = document.createElement("script"); sc.src = C.hlsScript || "js/hls.min.js"; sc.async = true;
-    sc.onload = () => ok(window.Hls); sc.onerror = no; document.head.appendChild(sc);
+    const src = C.hlsScript || "js/hls.min.js"; let done = false;
+    const fin = () => { if (!done && window.Hls) { done = true; ok(window.Hls); } };
+    const sc = document.createElement("script"); sc.src = src; sc.async = true;
+    sc.onload = fin; sc.onerror = () => {}; document.head.appendChild(sc);
+    /* some in-app browsers never run injected scripts: after 2.5s, load the same file another way */
+    setTimeout(() => { if (done) return; if (window.Hls) return fin();
+      fetch(src).then(r => r.text()).then(t => { (0, eval)(t); fin(); if (!done) no(); }).catch(no); }, 2500);
   }));
   const go = v => { const p = v.play(); if (p && p.catch) p.catch(() => {}); };
   const plain = (v, n) => {
