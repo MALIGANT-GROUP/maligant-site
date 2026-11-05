@@ -1528,18 +1528,21 @@ const MGV = (() => {
     stop(); if (!v) return;
     const u = stream(n);
     if (!u) return plain(v, n);
-    if (v.canPlayType("application/vnd.apple.mpegurl")) {
+    const native = () => {
       v.addEventListener("error", () => plain(v, n), { once: true });
-      v.src = u; go(v); return;
-    }
+      v.src = u; go(v);
+    };
+    /* hls.js wherever the browser supports it (desktop Chrome, Edge, Firefox, Android): it starts high and holds full HD;
+       Safari and iPhone, which have no MediaSource support for it, use their own HLS player */
+    if (!window.MediaSource && !window.ManagedMediaSource && v.canPlayType("application/vnd.apple.mpegurl")) return native();
     loadHls().then(H => {
       if (!v.isConnected) return;
-      if (!H || !H.isSupported()) return plain(v, n);
-      const h = hls = new H({ capLevelToPlayerSize: false, startLevel: -1 });
+      if (!H || !H.isSupported()) return v.canPlayType("application/vnd.apple.mpegurl") ? native() : plain(v, n);
+      const h = hls = new H({ capLevelToPlayerSize: false, startLevel: -1, abrEwmaDefaultEstimate: 8000000, testBandwidth: true });
       h.on(H.Events.MANIFEST_PARSED, () => go(v));
       h.on(H.Events.ERROR, (_, d) => { if (d && d.fatal && h === hls) { stop(); plain(v, n); } });
       h.loadSource(u); h.attachMedia(v);
-    }).catch(() => plain(v, n));
+    }).catch(() => v.canPlayType("application/vnd.apple.mpegurl") ? native() : plain(v, n));
   }
   return { play, stop, stream };
 })();
