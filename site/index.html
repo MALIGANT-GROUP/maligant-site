@@ -677,6 +677,29 @@ html.intro-on,html.intro-on body{overflow:hidden}
 @media (min-width:900px){ #bts .card.port,#shows .card.port,#snippets .card.port{width:clamp(220px,19vw,320px)} #bts .port .thumb,#shows .port .thumb,#snippets .port .thumb{aspect-ratio:9/16} #shows .port .thumb img{object-position:center} }
 @media (min-width:900px){ #vdjscreens .card.port{width:clamp(220px,19vw,320px)} }
 .bts-player.wide video{aspect-ratio:16/9;max-height:none}
+
+/* popup player controls: the same on Android, iPhone and PC (play, skip 10s, timer, scrubber, sound, full screen) */
+.bts-player{position:relative}
+.vc{position:absolute;inset:0;z-index:2;color:#fff;transition:opacity .25s;-webkit-tap-highlight-color:transparent;user-select:none;-webkit-user-select:none;background:linear-gradient(180deg,rgba(0,0,0,.42),transparent 20%,transparent 68%,rgba(0,0,0,.62))}
+.vc.off{opacity:0}.vc.off *{pointer-events:none}
+.vc button{appearance:none;-webkit-appearance:none;border:0;background:none;color:#fff;cursor:pointer;display:grid;place-items:center;padding:0;margin:0}
+.vc svg{width:100%;height:100%;display:block}
+.vc-top{position:absolute;left:12px;top:12px;display:flex;gap:8px}
+.vc-top button{width:40px;height:40px;border-radius:50%;background:rgba(0,0,0,.38);padding:10px}
+.vc-mid{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);display:flex;align-items:center;gap:clamp(24px,8vw,48px)}
+.vc-back,.vc-fwd{width:48px;height:48px;filter:drop-shadow(0 1px 6px rgba(0,0,0,.5))}
+.vc-play{width:72px;height:72px;border-radius:50%;background:rgba(0,0,0,.38);padding:18px;-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}
+.vc-bot{position:absolute;left:0;right:0;bottom:0;display:flex;align-items:center;gap:12px;padding:12px 14px 16px;font:600 12.5px/1 var(--body);font-variant-numeric:tabular-nums;text-shadow:0 1px 4px rgba(0,0,0,.6)}
+.vc-rail{position:relative;flex:1;height:4px;border-radius:2px;background:rgba(255,255,255,.28)}
+.vc-buf,.vc-fill{position:absolute;left:0;top:0;bottom:0;width:0;border-radius:2px}
+.vc-buf{background:rgba(255,255,255,.35)}.vc-fill{background:#fff}
+.vc-fill::after{content:"";position:absolute;right:-7px;top:50%;width:14px;height:14px;margin-top:-7px;border-radius:50%;background:#fff;box-shadow:0 1px 4px rgba(0,0,0,.45)}
+.vc-seek{position:absolute;left:-8px;top:-15px;width:calc(100% + 16px);height:34px;margin:0;opacity:0;cursor:pointer;touch-action:none}
+.vc-spin{position:absolute;left:50%;top:50%;width:92px;height:92px;margin:-46px 0 0 -46px;border-radius:50%;border:3px solid rgba(255,255,255,.18);border-top-color:#fff;animation:vcspin .8s linear infinite;display:none;pointer-events:none}
+.vc.wait .vc-spin{display:block}
+@keyframes vcspin{to{transform:rotate(360deg)}}
+.bts-player:fullscreen,.bts-player:-webkit-full-screen{width:100%;height:100%;background:#000}
+.bts-player:fullscreen video,.bts-player:-webkit-full-screen video{width:100%;height:100%;max-height:none;aspect-ratio:auto;object-fit:contain}
 .quota{display:grid;place-items:center;gap:10px;text-align:center;padding:clamp(48px,10vh,96px) 28px;min-height:44vh}
 .quota .q-mark{display:grid;place-items:center;width:46px;height:46px;border-radius:10px;background:var(--accent);color:var(--ink);font-family:var(--display);font-size:30px}
 .quota p{margin:6px 0 0;font-family:var(--display);font-size:clamp(28px,4vw,40px);letter-spacing:.02em;line-height:1}
@@ -2208,14 +2231,68 @@ function showBrand(id){
       <div class="more-grid">${motion.map(([m,k,l])=>btsCard(m,k,l)).join("")}${pieces.map(gfxCard).join("")}${Array.from({length:slots},()=>`<div class="slot"><span>Artwork<br>coming soon</span></div>`).join("")}</div>
     </div>`, "brand-sheet");
 }
+/* player controls for the popup video (Android shows none by default, so every device gets the same set) */
+const VC_I = {
+  play:'<svg viewBox="0 0 24 24"><path d="M7.5 4.8v14.4L19 12z" fill="currentColor"/></svg>',
+  pause:'<svg viewBox="0 0 24 24"><path d="M6.5 4.5h4v15h-4zM13.5 4.5h4v15h-4z" fill="currentColor"/></svg>',
+  back:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4.6 12a7.4 7.4 0 1 0 2.2-5.3"/><path d="M6.6 2.8v4h4"/><text x="12.2" y="15.4" text-anchor="middle" font-size="7.2" font-weight="700" fill="currentColor" stroke="none" font-family="system-ui,sans-serif">10</text></svg>',
+  fwd:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M19.4 12a7.4 7.4 0 1 1-2.2-5.3"/><path d="M17.4 2.8v4h-4"/><text x="11.8" y="15.4" text-anchor="middle" font-size="7.2" font-weight="700" fill="currentColor" stroke="none" font-family="system-ui,sans-serif">10</text></svg>',
+  fs:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg>',
+  vol:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9.5h3.5L12 6v12l-4.5-3.5H4z" fill="currentColor"/><path d="M15.5 9a4.2 4.2 0 0 1 0 6M18 6.5a7.8 7.8 0 0 1 0 11"/></svg>',
+  mute:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9.5h3.5L12 6v12l-4.5-3.5H4z" fill="currentColor"/><path d="M16 9.5l5 5M21 9.5l-5 5"/></svg>'
+};
+const vcTime = s => { if (!isFinite(s) || s < 0) s = 0; s = Math.floor(s); const h = Math.floor(s / 3600), m = Math.floor(s % 3600 / 60), x = String(s % 60).padStart(2, "0"); return (h ? h + ":" + String(m).padStart(2, "0") : String(m).padStart(2, "0")) + ":" + x; };
+function vControls(v){
+  const box = v && v.closest(".bts-player"); if (!box || box.querySelector(".vc")) return;
+  v.controls = false; v.removeAttribute("controls");
+  box.insertAdjacentHTML("beforeend", `<div class="vc"><div class="vc-top"><button class="vc-fs" aria-label="Full screen">${VC_I.fs}</button><button class="vc-mute" aria-label="Sound">${VC_I.vol}</button></div>
+    <div class="vc-mid"><button class="vc-back" aria-label="Back 10 seconds">${VC_I.back}</button><button class="vc-play" aria-label="Play">${VC_I.play}</button><button class="vc-fwd" aria-label="Forward 10 seconds">${VC_I.fwd}</button></div>
+    <div class="vc-spin"></div>
+    <div class="vc-bot"><span class="vc-cur">00:00</span><div class="vc-rail"><div class="vc-buf"></div><div class="vc-fill"></div><input class="vc-seek" type="range" min="0" max="1000" step="1" value="0" aria-label="Seek"></div><span class="vc-rem">-00:00</span></div></div>`);
+  const c = box.querySelector(".vc"), q = x => c.querySelector(x), seek = q(".vc-seek");
+  let hideT = null, drag = false;
+  const show = () => { c.classList.remove("off"); clearTimeout(hideT); if (!v.paused) hideT = setTimeout(() => { if (!drag) c.classList.add("off"); }, 2800); };
+  const toggle = () => { if (v.paused || v.ended) { const p = v.play(); if (p && p.catch) p.catch(() => {}); } else v.pause(); };
+  const skip = d => { if (!isFinite(v.duration)) return; v.currentTime = Math.max(0, Math.min(v.duration - .25, v.currentTime + d)); show(); };
+  const tap = (sel, fn) => q(sel).addEventListener("click", e => { e.stopPropagation(); fn(); });
+  tap(".vc-play", () => { toggle(); show(); });
+  tap(".vc-back", () => skip(-10));
+  tap(".vc-fwd", () => skip(10));
+  tap(".vc-mute", () => { v.muted = !v.muted; show(); });
+  tap(".vc-fs", () => { const d = document;
+    if (d.fullscreenElement || d.webkitFullscreenElement) { (d.exitFullscreen || d.webkitExitFullscreen).call(d); return; }
+    const ios = () => { if (v.webkitEnterFullscreen) try { v.webkitEnterFullscreen(); } catch (_) {} };
+    if (box.requestFullscreen) box.requestFullscreen().catch(ios); else if (box.webkitRequestFullscreen) box.webkitRequestFullscreen(); else ios(); show(); });
+  c.addEventListener("click", e => { if (e.target !== c) return; if (c.classList.contains("off")) show(); else if (v.paused) toggle(); else { clearTimeout(hideT); c.classList.add("off"); } });
+  seek.addEventListener("input", () => { drag = true; show(); if (isFinite(v.duration)) { const t = seek.value / 1000 * v.duration; q(".vc-cur").textContent = vcTime(t); q(".vc-fill").style.width = seek.value / 10 + "%"; } });
+  seek.addEventListener("change", () => { if (isFinite(v.duration)) v.currentTime = seek.value / 1000 * v.duration; drag = false; show(); });
+  const upd = () => { const d = v.duration; if (!isFinite(d) || !d) return;
+    if (!drag) { seek.value = Math.round(v.currentTime / d * 1000); q(".vc-fill").style.width = (v.currentTime / d * 100) + "%"; q(".vc-cur").textContent = vcTime(v.currentTime); }
+    q(".vc-rem").textContent = "-" + vcTime(d - v.currentTime);
+    try { const b = v.buffered; if (b.length) q(".vc-buf").style.width = Math.min(100, b.end(b.length - 1) / d * 100) + "%"; } catch (_) {} };
+  ["timeupdate", "durationchange", "loadedmetadata", "progress", "seeked"].forEach(ev => v.addEventListener(ev, upd));
+  const st = () => { const pz = v.paused || v.ended; q(".vc-play").innerHTML = pz ? VC_I.play : VC_I.pause; q(".vc-play").setAttribute("aria-label", pz ? "Play" : "Pause"); show(); };
+  ["play", "playing", "pause", "ended"].forEach(ev => v.addEventListener(ev, st));
+  v.addEventListener("waiting", () => c.classList.add("wait"));
+  ["playing", "canplay", "pause", "seeked"].forEach(ev => v.addEventListener(ev, () => c.classList.remove("wait")));
+  v.addEventListener("volumechange", () => { q(".vc-mute").innerHTML = v.muted ? VC_I.mute : VC_I.vol; });
+  st();
+}
+/* keyboard on PC: space = play/pause, arrows = skip 10s */
+document.addEventListener("keydown", e => {
+  const v = document.querySelector("#modalRoot .bts-player video"); if (!v || /INPUT|TEXTAREA|SELECT/.test((e.target && e.target.tagName) || "")) return;
+  if (e.key === " " || e.key === "k") { e.preventDefault(); const b = document.querySelector("#modalRoot .vc-play"); if (b) b.click(); }
+  else if (e.key === "ArrowLeft") { const b = document.querySelector("#modalRoot .vc-back"); if (b) { e.preventDefault(); b.click(); } }
+  else if (e.key === "ArrowRight") { const b = document.querySelector("#modalRoot .vc-fwd"); if (b) { e.preventDefault(); b.click(); } }
+});
 function showBts(k, list="bts"){
   const b = LISTS[list]()[k];
-  openModal(`<div class="bts-player ${list==="dj"||list==="trailer"||list==="nandz"||b.wide?"wide":""}"><video poster="bts/sm/${b.vid}.jpg" controls playsinline preload="none"></video></div>
+  openModal(`<div class="bts-player ${list==="dj"||list==="trailer"||list==="nandz"||b.wide?"wide":""}"><video poster="bts/sm/${b.vid}.jpg" playsinline preload="none"></video></div>
     <div class="gfx-info"><span class="tag"><span class="mark">M</span>${LIST_TAG[list]}</span><h2>${esc(b.title)}</h2>
     <div class="meta"><span>${esc(b.sub||"")}</span><span>${list==="motion"?"Designed":"Shot"} by Maligant Group</span></div>
     <div class="btns" style="margin-top:16px"><a class="btn btn-red" href="#contact" data-close ${LIST_CTA[list][1]?`data-pick="${LIST_CTA[list][1]}"`:""}>${LIST_CTA[list][0]}</a>
     <a class="btn btn-info" href="https://www.instagram.com/maligant_group.za/" target="_blank" rel="noopener">More on Instagram</a></div></div>`, list==="dj"||list==="trailer"||list==="nandz"||b.wide ? "gfx-sheet bts-sheet dj-sheet" : "gfx-sheet bts-sheet");
-  MGV.play(root.querySelector(".bts-player video"), b.vid);
+  const pv = root.querySelector(".bts-player video"); vControls(pv); MGV.play(pv, b.vid);
 }
 function showGfx(i){
   const g = GRAPHICS[i], b = brandOf(g.brand) || {kind:"client"};
