@@ -1721,6 +1721,11 @@ const TOP20 = ["jazziq-and-friends","sex-and-stuff","against-the-wall","rings-an
 
 /* Graphics: before = older work, now = current. Placeholder art until real files arrive. */
 const GRAPHICS = [
+  {rail:true, title:"LIV Sandton Weekender", client:"LIV Sandton", brand:"liv-sandton", format:"Weekend line-up · 9:16", img:"gfx-liv-weekender"},
+  {rail:true, title:"LIV 4Ever: 4th Birthday", client:"LIV Sandton", brand:"liv-sandton", format:"Saturday flyer · Moët & Hennessy · 9:16", img:"gfx-liv-4ever"},
+  {rail:true, title:"Fr3qncy Fridays: Oscar Mbo", client:"LIV Sandton", brand:"liv-sandton", format:"Friday flyer · Martell & G.H. Mumm · 9:16", img:"gfx-fr3qncy-oscar-mbo"},
+  {rail:true, title:"High Society: Morda", client:"LIV Sandton", brand:"liv-sandton", format:"Thursday flyer · 9:16", img:"gfx-high-society-morda"},
+  {rail:true, title:"Games Night", client:"LIV Sandton", brand:"liv-sandton", format:"Thursday flyer · 9:16", img:"gfx-games-night"},
   {rail:true, title:"Sunday Saga: DJ Maphorisa", client:"LIV Sandton", brand:"liv-sandton", format:"Sunday flyer · 9:16", img:"gfx-sunday-saga-maphorisa"},
   {rail:true, title:"Superstar Saturdays: Jaivane", client:"LIV Sandton", brand:"liv-sandton", format:"Saturday flyer · 9:16", img:"gfx-superstar-jaivane"},
   {rail:true, title:"Superstar Saturdays: Amaroto", client:"LIV Sandton", brand:"liv-sandton", format:"Saturday flyer · Hennessy · 9:16", img:"gfx-superstar-amaroto"},
@@ -1767,7 +1772,6 @@ const BRANDS = [
   {id:"booth-sandton", name:"Booth Sandton", kind:"client", art:["#4361ee","#060d2b"]},
   {id:"rockets", name:"Rockets", kind:"concept", art:["#4cc9f0","#071c2b"]},
   {id:"maracana", name:"Maracanã", sub:"Sandton", kind:"client", art:["#9d4edd","#140726"]},
-  {id:"stance-social", name:"Stance Social", kind:"client", art:["#06d6a0","#02201a"]},
   {id:"moloko", name:"Moloko", kind:"concept", art:["#f72585","#22041a"]},
   {id:"story", name:"Story", sub:"Illovo · concept work", kind:"concept", art:["#c4813b","#2a1408"]},
   {id:"la-parada", name:"La Parada", kind:"concept", art:["#e63946","#250608"]}
@@ -1779,7 +1783,7 @@ const brandOf = id => BRANDS.find(b=>b.id===id);
 const $ = s => document.querySelector(s);
 const esc = s => String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const ytOf = s => s.yt || "https://www.youtube.com/results?search_query=" + encodeURIComponent(s.title);
-const SMALL_THUMBS = ["ten-things", "rings-and-bearings", "love-clinic", "rated-r-dawn", "sex-and-stuff", "bigg-nandz-beats", "tresemme", "liquid-fate", "never-have-i-ever", "trashed", "true-caller", "city-girls", "podcast-and-chill", "against-the-wall", "gfx-cocktail-bottle-edit", "gfx-cocktail-corner", "gfx-cocktail-skyy", "gfx-curated-dlala", "gfx-curated-kyotic", "gfx-curated-sundays", "gfx-curated-thela", "gfx-fr3qncy-ko", "gfx-high-society-maglera", "gfx-high-society", "gfx-out-of-office", "gfx-soul-wednesdays", "gfx-sovereign-champagne", "gfx-sovereign-maphorisa", "gfx-sovereign-samdeep", "gfx-sunday-kos", "gfx-sunday-saga-maphorisa", "gfx-sunday-saga", "gfx-superstar-amaroto", "gfx-superstar-jaivane", "gfx-superstar-saturdays", "gfx-supper-club", "gfx-vibes-jazziq", "jazziq-s2", "legacy-collective", "living-with-bigg-nandz", "podcarst-ride", "the-assembly"];
+const SMALL_THUMBS = ["gfx-liv-weekender", "gfx-liv-4ever", "gfx-fr3qncy-oscar-mbo", "gfx-high-society-morda", "gfx-games-night", "ten-things", "rings-and-bearings", "love-clinic", "rated-r-dawn", "sex-and-stuff", "bigg-nandz-beats", "tresemme", "liquid-fate", "never-have-i-ever", "trashed", "true-caller", "city-girls", "podcast-and-chill", "against-the-wall", "gfx-cocktail-bottle-edit", "gfx-cocktail-corner", "gfx-cocktail-skyy", "gfx-curated-dlala", "gfx-curated-kyotic", "gfx-curated-sundays", "gfx-curated-thela", "gfx-fr3qncy-ko", "gfx-high-society-maglera", "gfx-high-society", "gfx-out-of-office", "gfx-soul-wednesdays", "gfx-sovereign-champagne", "gfx-sovereign-maphorisa", "gfx-sovereign-samdeep", "gfx-sunday-kos", "gfx-sunday-saga-maphorisa", "gfx-sunday-saga", "gfx-superstar-amaroto", "gfx-superstar-jaivane", "gfx-superstar-saturdays", "gfx-supper-club", "gfx-vibes-jazziq", "jazziq-s2", "legacy-collective", "living-with-bigg-nandz", "podcarst-ride", "the-assembly"];
 const imgOf = s => s.img ? `thumbs/md/${s.img}.jpg` : null;
 /* row cards load a light 560px copy (thumbs/sm/); sharp screens still get the full poster */
 const SM = new Set(SMALL_THUMBS);
@@ -1942,11 +1946,11 @@ const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
    {img:"file-name-in-thumbs", client:"Venue"}  → a flyer image,  or  {vid:"video-id", client:"Venue"} → an animated flyer.
    While the list is empty the row stays hidden. ---------- */
 const THIS_WEEK = [
-  {img:"gfx-soul-wednesdays", client:"LIV on Bree"},
-  {img:"gfx-supper-club", client:"LIV on Bree"},
-  {img:"gfx-out-of-office", client:"LIV on Bree"},
-  {img:"gfx-sovereign-maphorisa", client:"LIV on Bree"},
-  {img:"gfx-curated-sundays", client:"LIV on Bree"}
+  {img:"gfx-liv-weekender", client:"LIV Sandton"},
+  {img:"gfx-fr3qncy-oscar-mbo", client:"LIV Sandton"},
+  {img:"gfx-liv-4ever", client:"LIV Sandton"},
+  {img:"gfx-high-society-morda", client:"LIV Sandton"},
+  {img:"gfx-games-night", client:"LIV Sandton"}
 ];
 document.addEventListener("click",e=>{ const b=e.target.closest("[data-week]"); if(!b) return; const f=THIS_WEEK[+b.dataset.week]; if(!f||!f.img) return;
   openModal(`<div class="gfx-view"><img src="${f.dir||"thumbs"}/${f.img}.jpg" alt="${esc(f.client||"")}"></div><div class="gfx-info"><span class="tag"><span class="mark">M</span>${esc(f.client||"This week")}</span></div>`,"gfx-sheet"); });
