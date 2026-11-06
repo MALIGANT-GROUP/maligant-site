@@ -5,14 +5,37 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="description" content="Maligant Group: broadcasting and media production. Shows, podcasts, events, ads and graphics. Sandton and nationwide.">
 <meta name="theme-color" content="#0b0a0c">
-<link rel="icon" href="thumbs/maligant-logo.png">
-<title>Maligant Group</title>
+<title>Maligant Group · Shows, Ads, Events and Graphics</title>
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="canonical" href="https://maligantgroup.co.za/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Maligant Group">
+<meta property="og:url" content="https://maligantgroup.co.za/">
+<meta property="og:title" content="Maligant Group · Thinking made visual">
+<meta property="og:description" content="Shows, podcasts, brand films, events and graphics. Sandton and nationwide. Watch our work and book your shoot.">
+<meta property="og:image" content="https://maligantgroup.co.za/og-image.jpg">
+<meta property="og:image:secure_url" content="https://maligantgroup.co.za/og-image.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Maligant Group: posters for JazziQ and Friends, The Love Clinic, Sex n' Stuff and The Rated R Podcast">
+<meta property="og:locale" content="en_ZA">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@maligant_media">
+<meta name="twitter:title" content="Maligant Group · Thinking made visual">
+<meta name="twitter:description" content="Shows, podcasts, brand films, events and graphics. Sandton and nationwide.">
+<meta name="twitter:image" content="https://maligantgroup.co.za/og-image.jpg">
+<meta name="twitter:image:alt" content="Maligant Group: posters for JazziQ and Friends, The Love Clinic, Sex n' Stuff and The Rated R Podcast">
 <link rel="preconnect" href="https://customer-4v2c3qdzn0tk1dwm.cloudflarestream.com" crossorigin>
 <link rel="preload" as="image" href="bts/hero/tr-jazziq.jpg" fetchpriority="high">
 <link rel="preload" as="image" href="thumbs/md/jazziq-s2.jpg" fetchpriority="high">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Figtree:wght@400;500;600;700;800&display=swap" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Figtree:wght@400;500;600;700;800&display=swap" media="print" id="gfonts">
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Figtree:wght@400;500;600;700;800&display=swap"></noscript>
 <style>
 /* Layout: streaming-app shell — fixed top bar, rotating hero, horizontal rails, phone tab bar */
@@ -134,7 +157,42 @@ main{padding-bottom:40px}
 }
 @media (hover:none){.info-btn{opacity:1}}
 
-/* Top 10 */
+/* "Swipe to Explore": phones only, inside the banner, once per visit */
+.swipe-hint{display:none}
+@media (max-width:899px) and (hover:none){
+  .swipe-hint{display:flex;align-items:center;gap:10px;position:absolute;left:50%;top:calc(var(--nav-h,60px) + 14px);transform:translate(-50%,6px);z-index:6;pointer-events:none;
+    padding:8px 16px;border-radius:999px;background:rgba(10,9,11,.5);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.18);
+    font-size:11px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:#f4f1ec;opacity:0;transition:opacity .6s ease,transform .6s cubic-bezier(.2,.7,.2,1)}
+  .swipe-hint.on{opacity:1;transform:translate(-50%,0)}
+  .swipe-hint .sh-arrow{font-size:16px;line-height:1;letter-spacing:0;opacity:.8;animation:shNudge 1.4s ease-in-out infinite}
+  .swipe-hint .sh-arrow:last-child{animation-direction:reverse}
+}
+@keyframes shNudge{0%,100%{transform:translateX(0)}50%{transform:translateX(-4px)}}
+@media (prefers-reduced-motion: reduce){.swipe-hint .sh-arrow{animation:none}}
+
+/* Coming soon: the intro plays, then the site rests blurred behind a holding card (owner link skips it) */
+html.mg-gated,html.mg-gated body{overflow:hidden!important}
+.gate{position:fixed;inset:0;z-index:190;display:grid;place-items:center;padding:24px;background:rgba(8,7,9,.38);
+  backdrop-filter:blur(16px) saturate(1.08) brightness(.62);-webkit-backdrop-filter:blur(16px) saturate(1.08) brightness(.62);
+  opacity:0;transition:opacity 1.4s cubic-bezier(.2,.7,.2,1)}
+.gate.on{opacity:1}
+.gate-card{max-width:560px;width:100%;text-align:center;display:grid;justify-items:center;gap:18px;transform:translateY(14px);opacity:0;
+  transition:transform 1.2s cubic-bezier(.2,.7,.2,1) .35s,opacity 1.2s ease .35s}
+.gate.on .gate-card{transform:none;opacity:1}
+.gate-logo{width:min(250px,62vw);height:auto;filter:drop-shadow(0 10px 30px rgba(0,0,0,.5))}
+.gate-kicker{display:flex;align-items:center;gap:12px;font-size:12px;font-weight:800;letter-spacing:.34em;text-transform:uppercase;color:#f4f1ec}
+.gate-bar{display:inline-flex;gap:4px}.gate-bar i{width:18px;height:3px;border-radius:2px}
+.gate h2{margin:0;font-family:var(--display);font-weight:400;font-size:clamp(46px,9vw,92px);line-height:.9;letter-spacing:.01em;color:#fff;text-shadow:0 12px 40px rgba(0,0,0,.45)}
+.gate p{margin:0;max-width:420px;color:#d9d2c9;font-size:16px;line-height:1.5}
+.gate-actions{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:6px}
+.gate-actions a{display:inline-flex;align-items:center;gap:8px;padding:12px 20px;border-radius:999px;font-weight:700;font-size:14px;text-decoration:none;transition:transform .2s,background .2s}
+.gate-actions a:hover{transform:translateY(-1px)}
+.gate-actions .g-wa{background:#25d366;color:#06200f}
+.gate-actions .g-ig{background:rgba(255,255,255,.1);color:#fff;border:1px solid rgba(255,255,255,.22)}
+@media (prefers-reduced-motion: reduce){.gate,.gate-card{transition:none}}
+/* Top 20 */
+.card.top .num.two{font-size:clamp(118px,11.5vw,160px);letter-spacing:-.08em;margin-right:-14px}
+button.thumb{padding:0;border:0;font:inherit;color:inherit;cursor:pointer;display:block;text-align:inherit}
 .card.top{width:clamp(200px,23vw,270px);display:flex;align-items:flex-end}
 .card.top .num{font-family:var(--display);font-size:clamp(150px,15vw,200px);line-height:.75;color:var(--bg);-webkit-text-stroke:3px #5e5662;letter-spacing:-.05em;margin-right:-18px;flex:0 0 auto}
 .card.top .thumb{aspect-ratio:2/3;width:58%;flex:0 0 auto}
@@ -258,6 +316,9 @@ footer{padding-left:var(--gutter-l);padding-right:var(--gutter-r);padding-block:
 .show-top{display:grid;grid-template-columns:minmax(0,240px) minmax(0,1fr);gap:28px;padding:clamp(18px,4vw,36px)}
 .show-poster .thumb{aspect-ratio:9/16;border-radius:8px}
 .show-poster .thumb .play{opacity:1;transform:none}
+#djsets .thumb .play{opacity:1;transform:none;width:54px;height:54px;background:rgba(10,9,11,.55);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);border-color:rgba(255,255,255,.9)}
+#djsets .thumb:hover .play,#djsets .thumb:focus-visible .play{background:var(--accent);border-color:var(--accent)}
+.sub.glimpse b{color:var(--fg);font-weight:700}
 .show-info{min-width:0;align-self:center}
 .show-info h2{font-family:var(--display);font-weight:400;font-size:clamp(40px,6vw,64px);line-height:.9;margin:10px 0 12px;text-wrap:balance}
 .show-info p{color:#ddd6de;margin:14px 0 20px;max-width:52ch}
@@ -350,6 +411,13 @@ footer{padding-left:var(--gutter-l);padding-right:var(--gutter-r);padding-block:
 .opts label:has(input:checked){background:var(--accent);border-color:var(--accent);color:var(--ink)}
 .opts label:has(input:focus-visible){outline:2px solid var(--fg);outline-offset:2px}
 .row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media (min-width:1100px){
+  .brief{max-width:none;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);column-gap:clamp(28px,3vw,48px);row-gap:16px;align-items:start}
+  .brief > .brief-head,.brief > .out,.brief > .brief-actions,.brief > .send-to{grid-column:1 / -1}
+  .brief > fieldset{grid-column:1;grid-row:2 / span 3;align-self:stretch;border-right:1px solid var(--line);padding-right:clamp(28px,3vw,48px)}
+  .brief > .row,.brief > label.fld{grid-column:2}
+  .brief .opts label{padding:10px 16px}
+}
 .fld{display:grid;gap:6px;min-width:0}
 .fld span{font-size:13px;font-weight:600;color:var(--muted)}
 .fld input,.fld select,.fld textarea{background:var(--bg);border:1px solid var(--line);border-radius:8px;color:var(--fg);font:inherit;padding:11px 12px;width:100%}
@@ -609,6 +677,10 @@ html.intro-on,html.intro-on body{overflow:hidden}
 @media (min-width:900px){ #bts .card.port,#shows .card.port,#snippets .card.port{width:clamp(220px,19vw,320px)} #bts .port .thumb,#shows .port .thumb,#snippets .port .thumb{aspect-ratio:9/16} #shows .port .thumb img{object-position:center} }
 @media (min-width:900px){ #vdjscreens .card.port{width:clamp(220px,19vw,320px)} }
 .bts-player.wide video{aspect-ratio:16/9;max-height:none}
+.quota{display:grid;place-items:center;gap:10px;text-align:center;padding:clamp(48px,10vh,96px) 28px;min-height:44vh}
+.quota .q-mark{display:grid;place-items:center;width:46px;height:46px;border-radius:10px;background:var(--accent);color:var(--ink);font-family:var(--display);font-size:30px}
+.quota p{margin:6px 0 0;font-family:var(--display);font-size:clamp(28px,4vw,40px);letter-spacing:.02em;line-height:1}
+.quota span:last-child{color:var(--muted);font-size:15px}
 .dj-sheet{max-width:960px}
 
 .svc{min-width:0}
@@ -994,6 +1066,7 @@ video::-webkit-media-controls,video::-webkit-media-controls-panel,video::-webkit
   <button class="hero-nav prev" id="heroPrev" type="button" aria-label="Previous show"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg></button>
   <button class="hero-nav next" id="heroNext" type="button" aria-label="Next show"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5l7 7-7 7"/></svg></button>
   <div class="dots" id="heroDots" role="tablist" aria-label="Featured shows"></div>
+  <div class="swipe-hint" id="swipeHint" aria-hidden="true"><span class="sh-arrow">&#8249;</span>Swipe to Explore<span class="sh-arrow">&#8250;</span></div>
 </section>
 
 <div class="chips" role="group" aria-label="Jump to">
@@ -1003,7 +1076,7 @@ video::-webkit-media-controls,video::-webkit-media-controls-panel,video::-webkit
   <a class="chip" href="#aftermovies">The Legacy Collective</a>
   <a class="chip" href="#nandz">Living with Bigg Nandz</a>
   <a class="chip" href="#shows">Shows</a>
-  <a class="chip" href="#top10">Top 10</a>
+  <a class="chip" href="#top10">Top 20</a>
   <a class="chip" href="#watch-now">Watch now</a>
   <a class="chip" href="#motion">Motion graphics</a>
   <a class="chip" href="#djscreens">DJ screens</a>
@@ -1221,7 +1294,7 @@ video::-webkit-media-controls,video::-webkit-media-controls-panel,video::-webkit
   <div class="foot-grid">
     <a href="#shows">Shows</a><a href="#graphics">Graphics</a><a href="#clients">Clients</a><a href="#contact">Contact</a>
     <a href="#musa">Pope of Pop</a>
-    <a href="#originals">Originals</a><a href="#top10">Top 10</a><a href="#bts">Behind the scenes</a><a href="#contact">Book a shoot</a>
+    <a href="#originals">Originals</a><a href="#top10">Top 20</a><a href="#bts">Behind the scenes</a><a href="#contact">Book a shoot</a>
   </div>
   <div class="handles">@maligant_group.za · @maligantgroup · maligantgroup@gmail.com</div>
   <div>© 2026 Maligant Group (Pty) Ltd · Thinking made visual</div>
@@ -1242,6 +1315,7 @@ video::-webkit-media-controls,video::-webkit-media-controls-panel,video::-webkit
 
 <script src="videos.config.js"></script>
 <script>
+(function(){ const gf=document.getElementById("gfonts"); if(gf) gf.media="all"; })();
 /* ---------- intro: plays once per visit, tap to skip ---------- */
 (function(){
   const el=document.getElementById("intro"); if(!el) return;
@@ -1507,6 +1581,16 @@ const hsrc = name => "bts/hero/" + (HERO_M ? "m/" : "") + name + ".mp4";
    Previews, posters and hero backgrounds stay local (bts/). A clicked project plays its full-HD
    version in the lightbox: from Cloudflare Stream (adaptive HLS) once videos.config.js has its ID,
    otherwise from a local copy, otherwise the project's preview loop, so a player is never broken. */
+/* owner access: open https://maligantgroup.co.za/?owner=Wk4VN6LPwJh8 once on a device to skip the coming-soon screen
+   and the daily viewing allowance there (?owner=off removes it) */
+const OWNER_KEY = "Wk4VN6LPwJh8";
+const IS_OWNER = (() => { try {
+  const q = new URLSearchParams(location.search).get("owner");
+  if (q === OWNER_KEY) localStorage.setItem("mg-owner", OWNER_KEY);
+  if (q === "off") localStorage.removeItem("mg-owner");
+  if (q !== null) history.replaceState(null, "", location.pathname + location.hash);
+  return localStorage.getItem("mg-owner") === OWNER_KEY;
+} catch (_) { return false; } })();
 const MGV = (() => {
   const C = window.MG_VIDEO_CONFIG || {}, V = C.videos || {};
   const code = String(C.customerCode || "").trim();
@@ -1529,7 +1613,8 @@ const MGV = (() => {
     sc.onload = fin; sc.onerror = () => {}; document.head.appendChild(sc);
     /* some in-app browsers never run injected scripts: after 2.5s, load the same file another way */
     setTimeout(() => { if (done) return; if (window.Hls) return fin();
-      fetch(src).then(r => r.text()).then(t => { (0, eval)(t); fin(); if (!done) no(); }).catch(no); }, 2500);
+      fetch(src).then(r => r.blob()).then(b => { const s2 = document.createElement("script"); s2.src = URL.createObjectURL(new Blob([b], { type: "text/javascript" }));
+        s2.onload = () => { fin(); if (!done) no(); }; s2.onerror = no; document.head.appendChild(s2); }).catch(no); }, 2500);
   }));
   const go = v => { const p = v.play(); if (p && p.catch) p.catch(() => {}); };
   const plain = (v, n) => {
@@ -1538,8 +1623,37 @@ const MGV = (() => {
     v.src = "bts/" + n + "-loop.mp4"; v.muted = true; v.loop = true; v.controls = false; go(v);
   };
   function stop() { if (hls) { try { hls.destroy(); } catch (_) {} hls = null; } }
+  /* daily viewing allowance per visitor (browser): 60 minutes of actual HD playback, reset at midnight South African time.
+     Only seconds that really play are counted: not paused, buffering, seeking, finished, or in a hidden tab. */
+  const QUOTA = 60 * 60;
+  const day = () => new Intl.DateTimeFormat("en-CA", { timeZone: "Africa/Johannesburg", year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date());
+  const used = () => { try { const o = JSON.parse(localStorage.getItem("mg-watch") || "{}"); return o.d === day() ? +o.s || 0 : 0; } catch (_) { return 0; } };
+  const addUse = sec => { try { const d = day(), o = JSON.parse(localStorage.getItem("mg-watch") || "{}"); localStorage.setItem("mg-watch", JSON.stringify({ d, s: (o.d === d ? +o.s || 0 : 0) + sec })); } catch (_) {} };
+  const overQuota = () => !IS_OWNER && used() >= QUOTA;
+  function limitMsg(v) {
+    stop(); const box = v && v.closest(".bts-player"); if (!box) return;
+    try { v.pause(); v.removeAttribute("src"); v.load(); } catch (_) {}
+    box.innerHTML = `<div class="quota"><span class="q-mark">M</span><p>You've enjoyed today's showcase.</p><span>Come back tomorrow to explore more.</span></div>`;
+  }
+  function track(v) {
+    let last = null, idle = null;
+    const reset = () => { last = null; };
+    v.addEventListener("timeupdate", () => {
+      if (v.paused || v.seeking || v.ended || document.hidden || v.readyState < 3) { last = null; return; }
+      const t = v.currentTime; if (last !== null) { const dt = t - last; if (dt > 0 && dt < 2) addUse(dt); } last = t;
+      if (overQuota()) limitMsg(v);
+    });
+    ["pause", "waiting", "seeking", "ended", "emptied"].forEach(ev => v.addEventListener(ev, reset));
+    /* paused for a while: stop downloading more of the stream (Cloudflare bills what is delivered) */
+    v.addEventListener("pause", () => { clearTimeout(idle); idle = setTimeout(() => { if (v.paused && hls) try { hls.stopLoad(); } catch (_) {} }, 10000); });
+    v.addEventListener("play", () => { clearTimeout(idle); if (hls) try { hls.startLoad(); } catch (_) {} });
+  }
+  /* switching tab or locking the phone pauses the popup video (no auto-resume, so no surprise sound) */
+  document.addEventListener("visibilitychange", () => { if (document.hidden) document.querySelectorAll("#modalRoot video").forEach(x => { if (!x.paused) x.pause(); }); });
   function play(v, n) {
     stop(); if (!v) return;
+    if (overQuota()) return limitMsg(v);
+    track(v);
     const u = stream(n);
     if (!u) return plain(v, n);
     const native = () => {
@@ -1603,7 +1717,7 @@ const LISTS = {after:()=>AFTER, sets:()=>SETS, nandz:()=>NANDZ, trailer:()=>TRAI
 const LIST_TAG = {after:"THE LEGACY COLLECTIVE", sets:"DJ SET", nandz:"LIVING WITH BIGG NANDZ", vdj:"VERTICAL DJ SCREEN", trailer:"TRAILER", bts:"BEHIND THE SCENES", snip:"PODCAST SNIPPET", motion:"MOTION GRAPHICS", dj:"DJ SCREEN"};
 const LIST_CTA = {after:["Book an aftermovie like this","Event coverage"], sets:["Book a DJ set shoot like this","Social content"], nandz:["Book a show like this","Ad / brand film"], vdj:["Book DJ screens like this","Graphics &amp; screens"], trailer:["Book a show like this","Ad / brand film"], bts:["Book a shoot like this",""], snip:["Book a podcast like this","Podcast production"], motion:["Get motion graphics like this","Animated flyers / screens"], dj:["Book stage screens like this","Graphics &amp; screens"]};
 const GROUPS = {pcn:"Podcast and Chill Network", musa:"The Pope of Pop Culture", orig:"Originals & Specials"};
-const TOP10 = ["love-clinic","rated-r-dawn","legacy-collective","podcast-and-chill","celebrity-edition","city-girls","musa-khawula","opend-dineo","the-assembly","bro-code"];
+const TOP20 = ["jazziq-and-friends","sex-and-stuff","against-the-wall","rings-and-bearings","true-caller","tresemme","liquid-fate","love-clinic","rated-r-dawn","podcast-and-chill","living-with-big-nandz","legacy-collective","celebrity-edition","musa-khawula","opend-dineo","city-girls","the-assembly","bro-code","trashed","never-have-i-ever"];
 
 /* Graphics: before = older work, now = current. Placeholder art until real files arrive. */
 const GRAPHICS = [
@@ -1719,10 +1833,11 @@ function btsCard(b, k, list="bts"){
     : `<a class="thumb" href="${esc(b.url)}" target="_blank" rel="noopener" aria-label="Watch ${esc(b.title)} on Instagram">${inner}</a>`}</div>`;
 }
 function topCard(s, n){
-  return `<div class="card top"><span class="num" aria-hidden="true">${n}</span>
-    <a class="thumb" href="${esc(ytOf(s))}" target="_blank" rel="noopener" aria-label="Number ${n}: watch ${esc(s.title)} on YouTube">
+  return `<div class="card top"><span class="num${n>9?" two":""}" aria-hidden="true">${n}</span>
+    ${s.yt ? `<a class="thumb" href="${esc(s.yt)}" target="_blank" rel="noopener" aria-label="Number ${n}: watch ${esc(s.title)} on YouTube">`
+           : `<button class="thumb" type="button" data-info="${s.id}" aria-label="Number ${n}: ${esc(s.title)}">`}
       ${face(s)}<span class="badge">M</span><span class="play">${ICON.play}</span>
-    </a></div>`;
+    ${s.yt ? "</a>" : "</button>"}</div>`;
 }
 function gfxCard(g){
   const i = GRAPHICS.indexOf(g);
@@ -1803,14 +1918,14 @@ function render(){
        <p>We produce, shoot, edit and grow podcasts. One of them reached 380 episodes.</p></div>
        <a class="btn btn-red" href="#contact" data-pick="Podcast production">Pitch us your show</a>
      </aside>` +
-    rail("top10","Top 10 Shows", TOP10.map((id,k)=>topCard(byId(id),k+1)).join("")) +
+    rail("top10","Top 20 Shows", TOP20.map(byId).filter(Boolean).map((s,k)=>topCard(s,k+1)).join("")) +
     rail("musa","The Pope of Pop Culture", inGroup("musa").map(showCard).join(""), `<span class="sub">with Musa Khawula</span>`) +
     rail("originals","Originals &amp; Specials", inGroup("orig").map(showCard).join("")) +
     rail("motion","Motion Graphics", MOTION.map((b,k)=>(BRANDS.find(x=>x.id===b.brand)||{}).kind==="concept"?"":btsCard(b,k,"motion")).join(""), `<span class="sub">Animated promos, flyers and screens</span>`) +
     rail("djscreens","DJ Screens", DJS.map((b,k)=>btsCard(b,k,"dj")).join(""), `<span class="sub">Stage-screen visuals for every DJ on the line-up</span>`) +
     rail("djsets","DJ Sets", SETS.map((b,k)=>btsCard(b,k,"sets")).join(""), `<span class="sub">Live sets we shoot and cut</span>`) +
     rail("vdjscreens","Vertical DJ Screens", VDJS.map((b,k)=>btsCard(b,k,"vdj")).join(""), `<span class="sub">Portrait screens for DJ booths and pillars</span>`) +
-    rail("graphics","Graphics", GRAPHICS.filter(g=>g.rail).sort((a,b)=>!!b.img-!!a.img).map(gfxCard).join(""), `<span class="sub">More coming</span>`) +
+    rail("graphics","Graphics", GRAPHICS.filter(g=>g.rail).sort((a,b)=>!!b.img-!!a.img).map(gfxCard).join(""), `<span class="sub glimpse"><b>A Glimpse of What We Create.</b> A curated selection of our creative work. There\'s plenty more where that came from.</span>`) +
     rail("clients","Our Clients", BRANDS.filter(b=>b.kind!=="concept").map(brandTile).join(""), `<span class="sub">Tap a brand to see the work</span>`) +
     `<aside class="next-up gfx-pitch">
        <div class="nu-txt"><span class="tag"><span class="mark">M</span>FOR VENUES &amp; BRANDS</span><h3>Your week, designed.</h3>
@@ -1926,6 +2041,12 @@ document.addEventListener("click",e=>{
 /* ---------- WhatsApp: set the number (international format, no +) to switch it on ---------- */
 const WA = "27670092634";
 function waLink(text){ return `https://wa.me/${WA}?text=${encodeURIComponent(text)}`; }
+/* phones: open wa.me in the same tab, so iPhone Safari / Android hand straight over to the WhatsApp app (no blank tab);
+   computers: a new tab with WhatsApp Web / desktop app handoff */
+const IS_TOUCH = matchMedia("(hover: none) and (pointer: coarse)").matches;
+function waTarget(a){ if(!a) return; if(IS_TOUCH){ a.removeAttribute("target"); } else { a.target="_blank"; a.rel="noopener"; } }
+/* every WhatsApp link on the page, including ones inside pop-ups: on phones go straight to the app in this tab */
+document.addEventListener("click",e=>{ const l=e.target.closest&&e.target.closest('a[href^="https://wa.me/"]'); if(!l||!IS_TOUCH) return; e.preventDefault(); location.href=l.href; },true);
 const canHover = matchMedia("(hover: hover) and (pointer: fine)").matches;
 /* motion graphics, DJ screens, vertical screens and brand-concept motion always loop (while on screen) so they never look like static flyers */
 const ALWAYS = "#motion, #djscreens, #vdjscreens, #concepts, .always";
@@ -2023,6 +2144,11 @@ const kickHero=()=>{ const L=$("#heroBg").children[hi]; const v=L&&L.querySelect
 ["touchstart","pointerdown","scroll","keydown"].forEach(ev=>addEventListener(ev,kickHero,{passive:true,once:true}));
 addEventListener("mg-intro-done",kickHero,{once:true}); document.addEventListener("visibilitychange",()=>{ if(!document.hidden) kickHero(); });
 showHero(0); if(window.MG_INTRO_DONE||!document.getElementById("intro")) { autoHero(); warmNext(); } else addEventListener("mg-intro-done",()=>{ autoHero(); warmNext(); },{once:true});
+(function swipeHint(){ const h=$("#swipeHint"); if(!h || getComputedStyle(h).display==="none") return;
+  let seen=false; try{ seen=sessionStorage.getItem("mg-swipe")==="1"; }catch(_){} if(seen) return;
+  const show=()=>{ if(document.body.classList.contains("mg-gated")) return; setTimeout(()=>{ h.classList.add("on"); try{ sessionStorage.setItem("mg-swipe","1"); }catch(_){} setTimeout(()=>h.classList.remove("on"),3000); },700); };
+  if(window.MG_INTRO_DONE||!document.getElementById("intro")) show(); else addEventListener("mg-intro-done",show,{once:true});
+  ["touchstart","scroll"].forEach(ev=>addEventListener(ev,()=>h.classList.remove("on"),{passive:true,once:true})); })();
 /* prev / next arrows + swipe on the banner: skip any time */
 function heroGo(d){ showHero(hi+d); autoHero(); warmNext(); }
 const navFlash=b=>{ b.classList.remove("flash"); void b.offsetWidth; b.classList.add("flash"); };
@@ -2197,7 +2323,7 @@ document.addEventListener("click", e=>{
   const pk=e.target.closest("[data-pick]"); if(pk){ pick(pk.dataset.pick); }
 });
 const fab=$("#fab");
-const waFab=$("#waFab"); if(WA){ waFab.hidden=false; waFab.href=waLink("Hi Maligant, I saw your work on maligantgroup.co.za and I'd like to book a shoot."); }
+const waFab=$("#waFab"); if(WA){ waFab.hidden=false; waFab.href=waLink("Hi Maligant Group, I'd like to enquire about your creative services."); waTarget(waFab); }
 function fabState(){ const c=document.getElementById("contact").getBoundingClientRect(); const on=scrollY>500 && c.top>innerHeight*.6; fab.classList.toggle("show", on); if(WA) waFab.classList.toggle("show", on); }
 addEventListener("scroll", fabState, {passive:true}); fabState();
 
@@ -2226,6 +2352,27 @@ document.querySelectorAll(".soc").forEach(card=>{
   if(matchMedia("(prefers-reduced-motion: reduce)").matches) return;
   new IntersectionObserver(es=>es.forEach(en=>{ if(en.isIntersecting){ countUp(); if(!timer) timer=setInterval(burst,700+Math.random()*250); } else { clearInterval(timer); timer=null; } }),{threshold:.3}).observe(card);
 });
+
+/* ---------- Coming soon (switch COMING_SOON to false to open the site to everyone) ---------- */
+const COMING_SOON = true;
+(function gate(){
+  if (!COMING_SOON || IS_OWNER) return;
+  document.documentElement.classList.add("mg-gated"); document.body.classList.add("mg-gated");
+  const g = document.createElement("div"); g.className = "gate"; g.setAttribute("role", "dialog"); g.setAttribute("aria-modal", "true"); g.setAttribute("aria-label", "Coming soon");
+  const wa = WA ? waLink("Hi Maligant Group, I'd like to enquire about your creative services.") : "mailto:maligantgroup@gmail.com";
+  g.innerHTML = `<div class="gate-card">
+      <img class="gate-logo" src="thumbs/maligant-logo.png" alt="Maligant Group">
+      <div class="gate-kicker"><span class="gate-bar"><i style="background:#e0392a"></i><i style="background:#f0a43c"></i><i style="background:#5ccc45"></i></span>Coming soon</div>
+      <h2>Maligant's new home</h2>
+      <p>Our shows, films, events and graphics, all in one place. We're putting on the final touches.</p>
+      <div class="gate-actions"><a class="g-wa" href="${wa}">Chat on WhatsApp</a><a class="g-ig" href="https://www.instagram.com/maligant_group.za/" target="_blank" rel="noopener">Follow on Instagram</a></div>
+    </div>`;
+  document.body.appendChild(g);
+  const show = () => requestAnimationFrame(() => g.classList.add("on"));
+  if (window.MG_INTRO_DONE || !document.getElementById("intro")) show(); else addEventListener("mg-intro-done", show, { once: true });
+  /* nothing behind the card should grab clicks, keys or scrolling */
+  document.querySelectorAll("#waFab,.fab").forEach(x => x.style.display = "none");
+})();
 </script>
 
 
