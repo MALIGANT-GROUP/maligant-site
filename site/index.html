@@ -901,7 +901,7 @@ html.intro-on,html.intro-on body{overflow:hidden}
 
 /* ===== Mobile banner v2: full 16:9 video on top (whole frame visible), poster card overlapping its lower right, title beside the card (mobile only) ===== */
 @media (max-width:899px){
-  .hero{--vh169:56.25vw;display:grid;grid-template-columns:minmax(0,1fr) auto;column-gap:14px;align-items:start;
+  .hero{--vh169:56.25vw;--pch:clamp(240px,70vw,400px);--pcw:calc(var(--pch) * .5625);display:grid;grid-template-columns:minmax(0,1fr) var(--pcw);column-gap:14px;align-items:start;
     padding:var(--nav-h) var(--gutter-r) 58px var(--gutter-l);min-height:auto;
     background:radial-gradient(130% 55% at 75% 30%, var(--amb,#1a1214) 0%, var(--bg) 70%)}
   .hero-bg{inset:auto;top:var(--nav-h);left:0;right:0;height:var(--vh169);overflow:hidden}
@@ -911,8 +911,9 @@ html.intro-on,html.intro-on body{overflow:hidden}
   .hero::after{inset:auto;left:0;right:0;top:calc(var(--nav-h) + var(--vh169) - 86px);height:92px;
     background:linear-gradient(180deg, rgba(11,10,12,0) 0%, var(--bg) 100%)!important}
   .hero-poster{grid-column:2;grid-row:1 / span 3;align-self:start;margin:calc(var(--vh169) * .42) 0 0 0!important;
-    height:clamp(240px,70vw,400px)!important}
-  .hero-poster img{max-width:none!important}
+    height:var(--pch)!important;width:var(--pcw)!important;justify-content:flex-end}
+  /* the card's space is reserved from the first frame, so the title never reflows when the poster fades in */
+  .hero-poster img{max-width:none!important;width:100%!important;height:100%!important;object-fit:contain;object-position:right top}
   .hero-inner{display:contents}
   .hero-inner > .tag{grid-column:1;grid-row:1;align-self:start;margin-top:calc(var(--vh169) + 14px)}
   .hero h1{grid-column:1;grid-row:2;font-size:clamp(30px,9vw,46px)!important;line-height:.92;margin:6px 0 6px!important}
