@@ -1990,12 +1990,12 @@ function gradeBlock(){
   const v=GRADE[0][1];
   return `<aside class="grade" id="grade">
     <div><span class="tag"><span class="mark">M</span>THE MALIGANT GRADE</span><h3>Drag to see the difference.</h3>
-      <p>Cameras record flat so nothing is lost. The grade is where it starts to look like TV. Every job leaves fully graded.</p>
+      <p>Footage comes off the camera raw and ungraded. The grade is where it starts to look like TV. Every job leaves fully graded.</p>
       <div class="grade-tabs" role="group" aria-label="Choose a show">${GRADE.map((g,i)=>`<button type="button" data-grade="${i}" aria-pressed="${i?"false":"true"}">${esc(g[0])}</button>`).join("")}</div>
-      <small class="fine">Left side shows a recreated flat camera look.</small></div>
-    <div class="ba" id="ba" role="slider" tabindex="0" aria-label="Compare flat footage with the Maligant grade" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" aria-valuetext="Half flat, half graded">
+      <small class="fine">Left: raw footage, straight after the shoot, ungraded. Right: the Maligant grade.</small></div>
+    <div class="ba" id="ba" role="slider" tabindex="0" aria-label="Compare raw ungraded footage with the Maligant grade" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" aria-valuetext="Half raw, half graded">
       <video muted loop playsinline preload="none" poster="bts/hero/${v}.jpg" data-src="${hsrc(v)}"></video>
-      <span class="before"></span><span class="line"></span><span class="lbl l">BEFORE · FLAT</span><span class="lbl r">AFTER · MALIGANT GRADE</span>
+      <span class="before"></span><span class="line"></span><span class="lbl l">BEFORE · RAW</span><span class="lbl r">AFTER · MALIGANT GRADE</span>
       <span class="knob" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l-6 6 6 6M15 6l6 6-6 6"/></svg></span>
       <span class="hint" aria-hidden="true">DRAG</span>
     </div></aside>`;
@@ -2004,7 +2004,7 @@ function initGrade(){
   const ba=document.getElementById("ba"); if(!ba) return;
   const vid=ba.querySelector("video");
   let x=50, vis=false, hinted=false, dragging=false;
-  const set=v=>{ x=Math.max(0,Math.min(100,v)); ba.style.setProperty("--x",x+"%"); ba.setAttribute("aria-valuenow",Math.round(x)); ba.setAttribute("aria-valuetext",Math.round(x)+"% flat"); };
+  const set=v=>{ x=Math.max(0,Math.min(100,v)); ba.style.setProperty("--x",x+"%"); ba.setAttribute("aria-valuenow",Math.round(x)); ba.setAttribute("aria-valuetext",Math.round(x)+"% raw"); };
   const used=()=>ba.classList.add("used");
   const fromEvent=e=>{ const r=ba.getBoundingClientRect(); set((e.clientX-r.left)/r.width*100); };
   /* drag anywhere on the picture: mouse, touch or pen. Vertical swipes still scroll the page on phones */
