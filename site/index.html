@@ -2454,7 +2454,7 @@ document.querySelectorAll(".soc").forEach(card=>{
 });
 
 /* ---------- Coming soon (switch COMING_SOON to false to open the site to everyone) ---------- */
-const COMING_SOON = true;
+const COMING_SOON = false;
 (function gate(){
   if (!COMING_SOON || IS_OWNER) return;
   document.documentElement.classList.add("mg-gated"); document.body.classList.add("mg-gated");
