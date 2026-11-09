@@ -29,6 +29,26 @@
     window.fbq("track", "Contact", { content_name: method });
   }, true);
 
+  /* Clicks: which work people open, YouTube taps and the booking buttons (only after "Accept") */
+  function label(el) {
+    return ((el.getAttribute("aria-label") || el.getAttribute("data-pick") || el.textContent || "") + "").replace(/\s+/g, " ").trim().slice(0, 80);
+  }
+  document.addEventListener("click", function (e) {
+    if (!loaded || !window.fbq || !e.target.closest) return;
+    var t = e.target;
+    var yt = t.closest('a[href*="youtube.com"], a[href*="youtu.be"]');
+    if (yt) { window.fbq("trackCustom", "YouTubeClick", { content_name: label(yt) }); return; }
+    var cta = t.closest('a[data-pick], a.cta-sm');
+    if (cta) { window.fbq("trackCustom", "BookingClick", { content_name: label(cta) }); return; }
+    var work = t.closest("[data-bts], [data-gfx], [data-week], [data-brand], [data-info]");
+    if (work) {
+      var kind = work.hasAttribute("data-bts") ? (work.getAttribute("data-list") || "video")
+        : work.hasAttribute("data-brand") ? "client"
+        : work.hasAttribute("data-info") ? "show" : "graphic";
+      window.fbq("trackCustom", "WorkClick", { content_name: label(work), content_category: kind });
+    }
+  }, true);
+
   var css = ".mg-cookie{position:fixed;z-index:195;left:max(16px,env(safe-area-inset-left));right:max(16px,env(safe-area-inset-right));bottom:calc(16px + env(safe-area-inset-bottom));max-width:440px;background:#151715;color:#f4f5f2;border:1px solid #2b2f2b;border-radius:14px;padding:16px 18px;box-shadow:0 18px 50px rgba(0,0,0,.55);font:500 14px/1.5 Figtree,'Segoe UI',system-ui,sans-serif;opacity:0;transform:translateY(12px);transition:opacity .35s ease,transform .35s ease}" +
     ".mg-cookie.on{opacity:1;transform:none}" +
     ".mg-cookie::before{content:'';position:absolute;left:18px;top:-1px;width:64px;height:3px;border-radius:2px;background:linear-gradient(90deg,#5ccc45,#f0a43c,#e0392a)}" +

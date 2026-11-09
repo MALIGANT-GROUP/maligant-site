@@ -38,12 +38,12 @@ import { createHash } from "node:crypto";
   const cf = "https://*.cloudflarestream.com https://videodelivery.net";
   const csp = [
     "default-src 'self'",
-    `script-src 'self' ${hashes.join(" ")} blob:`,
+    `script-src 'self' ${hashes.join(" ")} blob: https://connect.facebook.net`,
     "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
     "font-src 'self' https://fonts.gstatic.com",
-    `img-src 'self' data: blob: ${cf}`,
+    `img-src 'self' data: blob: ${cf} https://www.facebook.com`,
     `media-src 'self' blob: ${cf}`,
-    `connect-src 'self' ${cf}`,
+    `connect-src 'self' ${cf} https://www.facebook.com https://connect.facebook.net`,
     "worker-src 'self' blob:",
     "manifest-src 'self'",
     "frame-ancestors 'none'",
