@@ -812,6 +812,11 @@ window.MG_VIDEO_CONFIG = {
    "file": "am-legacy-9.mp4",
    "streamId": "4f5a2d4eee5cad3c541c32ddec469270",
    "local": false
+  },
+  "op-atw": {
+   "file": "op-atw.mp4",
+   "streamId": "",
+   "local": true
   }
  }
 };
